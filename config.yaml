@@ -27,6 +27,7 @@ params:
         url: /team
         style: link
     logo: /images/maroon-jupiter.png
+    logo_alt: Railly Clean
   footer:
     type: footer
     has_nav: true
