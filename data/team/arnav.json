@@ -1,9 +1,9 @@
 {
-    "id": "arnav",
-    "first_name": "Arnav",
-    "last_name": "Desai",
-    "photo": "images/arnav.png",
-    "photo_alt": "Arnav Deasai",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula, cursus id molestie vel, maximus aliquet risus.",
-    "type": "person"
+  "id": "arnav",
+  "first_name": "Arnav",
+  "last_name": "Desai",
+  "photo": "images/arnav.png",
+  "photo_alt": "Arnav Deasai",
+  "bio": "Report Writing",
+  "type": "person"
 }
