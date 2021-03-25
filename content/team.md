@@ -7,14 +7,19 @@ sections:
     subtitle: " The team behind Railly Clean"
   - type: content_section
     content: >-
-      Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim
-      sit amet venenatis urna cursus eget nunc. Dui nunc mattis enim ut tellus.
-      Eu sem integer vitae justo eget magna fermentum. Habitant morbi tristique
-      senectus et netus et malesuada fames. Ipsum dolor sit amet consectetur
-      adipiscing elit pellentesque habitant.
+      Our team was structured into several smaller sub-teams with each on
+      focused on a particular aspect of the development of the project. Members
+      were allocated to teams based on a self-assessed skills matrix filled out
+      in the first week. The project manager was responsible for making sure
+      individual teams remained on schedule and co-ordinating tasks that
+      required overlap between two teams such as code integration.
 
 
-      Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac felis donec et odio pellentesque. Sem nulla pharetra diam sit amet. Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus turpis in eu mi bibendum neque egestas.
+      The team initially communicated through Facebook Messenger but soon moved to Discord to allow independent communication between sub-teams to focus on their area of development, while at the same time allowing collaboration between teams to maximise cohesion and awareness of progress. This flexible approach allowed team members to stay focused on their own tasks or collaborate with another team as necessary. Throughout the development the team had two whole team meetings a week as well as smaller meetings between groups.
+
+
+      The project code was storing in a shared repository on GitHub to allow the entire team access. Version control was implemeted through Git and GitHub, using GitHub’s project management features to keep track of how the project was progressing. Demo reports were created using Overleaf, enabling instant visual feedback of layout and the ability for the team to add comments and feedback.
+    title: Organistion Structure
   - type: team_section
     title: Our Team
     team:
@@ -26,16 +31,6 @@ sections:
       - data/team/suhas.json
       - data/team/sean.json
       - data/team/suhas.json
-  - type: cta_section
-    title: Join the Team
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    actions:
-      - type: action
-        label: Contact Us
-        url: /contact
-        style: secondary
-    has_background: true
-    background_color: blue
 seo:
   type: stackbit_page_meta
   title: Team
