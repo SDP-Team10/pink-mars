@@ -1,5 +1,6 @@
 ---
 title: Home
+sections: []
 seo:
   title: ""
   description: ""
