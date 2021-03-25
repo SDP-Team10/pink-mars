@@ -35,7 +35,7 @@ sections:
 seo:
   type: stackbit_page_meta
   title: Team
-  description: The team behind Railly Clean
+  description: The Team behind Railly Clean
   extra:
     - name: og:type
       value: website
