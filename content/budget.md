@@ -6,7 +6,7 @@ sections:
     align: center
     actions: []
   - type: content_section
-    content: ">"
+    content: ""
 seo:
   type: stackbit_page_meta
   title: Contact
