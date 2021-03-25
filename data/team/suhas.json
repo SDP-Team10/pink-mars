@@ -1,0 +1,9 @@
+{
+    "id": "suhas",
+    "first_name": "Suhas",
+    "last_name": "Nareddy",
+    "photo": "images/suhas.jpg",
+    "photo_alt": "Suhas McDougall",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula, cursus id molestie vel, maximus aliquet risus.",
+    "type": "person"
+}

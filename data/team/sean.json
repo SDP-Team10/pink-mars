@@ -1,0 +1,9 @@
+{
+    "id": "Sean",
+    "first_name": "Sean",
+    "last_name": "Memery",
+    "photo": "images/sean.jpg",
+    "photo_alt": "Sean Memery",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula, cursus id molestie vel, maximus aliquet risus.",
+    "type": "person"
+}
