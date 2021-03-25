@@ -6,6 +6,12 @@ params:
     title: Railly Clean
     has_nav: true
     nav_links:
+      - url: /home
+        style: link
+        new_window: false
+        no_follow: false
+        type: action
+        label: Home
       - type: action
         label: System
         url: /system
@@ -40,7 +46,7 @@ params:
         label: Privacy and Terms
         url: /terms
         style: link
-    has_social: true
+    has_social: false
     social_links:
       - type: action
         label: Twitter
@@ -57,7 +63,7 @@ params:
         url: https://www.linkedin.com/
         style: link
         new_window: true
-    content: "&copy; Railly Clean. All rights reserved. 2020."
+    content: "&copy; Railly Clean. All rights reserved. 2021."
   domain: https://pink-mars-be984.netlify.app
 taxonomies:
   stub: stub
