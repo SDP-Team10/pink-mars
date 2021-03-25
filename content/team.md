@@ -28,9 +28,9 @@ sections:
       - data/team/apurv.json
       - data/team/daniel.json
       - data/team/arnav.json
-      - data/team/suhas.json
       - data/team/sean.json
-      - data/team/suhas.json
+      - data/team/austin.json
+      - data/team/mate.json
 seo:
   type: stackbit_page_meta
   title: Team
