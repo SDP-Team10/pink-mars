@@ -12,7 +12,7 @@ params:
         style: link
       - type: action
         label: How it works
-        url: /blog
+        url: /how-itworks
         style: link
       - type: action
         label: About
