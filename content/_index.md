@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: hero_section
     title: Railly Clean
-    subtitle: 'A cleaning robot that makes train cleaning quick, easy and cheap.'
+    subtitle: 'A robot that makes train cleaning quick, easy and cheap.'
     actions:
       - type: action
         label: Learn More
