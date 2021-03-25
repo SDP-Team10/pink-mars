@@ -1,9 +1,9 @@
 {
-    "id": "daniel",
-    "first_name": "Daniel",
-    "last_name": "Spencer",
-    "photo": "images/dan.JPG",
-    "photo_alt": "Daniel Spencer",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula, cursus id molestie vel, maximus aliquet risus.",
-    "type": "person"
+  "id": "daniel",
+  "first_name": "Daniel",
+  "last_name": "Spencer",
+  "photo": "images/dan.JPG",
+  "photo_alt": "Daniel Spencer",
+  "bio": "Simulation modelling and website",
+  "type": "person"
 }
