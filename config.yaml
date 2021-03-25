@@ -19,8 +19,8 @@ params:
         url: /evaluation
         style: link
       - type: action
-        label: Style Guide
-        url: /style-guide
+        label: Budget
+        url: /budget
         style: link
       - type: action
         label: Contact Us
