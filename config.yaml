@@ -19,7 +19,7 @@ params:
         url: /evaluation
         style: link
       - type: action
-        label: Style Guide
+        label: 
         url: /style-guide
         style: link
       - type: action
