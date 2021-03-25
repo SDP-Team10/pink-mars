@@ -5,6 +5,17 @@ sections:
     title: Team
     align: center
     subtitle: " The team behind Railly Clean"
+  - type: team_section
+    title: Our Team
+    team:
+      - data/team/anh.json
+      - data/team/caitlin.json
+      - data/team/apurv.json
+      - data/team/daniel.json
+      - data/team/arnav.json
+      - data/team/sean.json
+      - data/team/austin.json
+      - data/team/mate.json
   - type: content_section
     content: >-
       Our team was structured into several smaller sub-teams with each on
@@ -20,17 +31,6 @@ sections:
 
       The project code was storing in a shared repository on GitHub to allow the entire team access. Version control was implemeted through Git and GitHub, using GitHub’s project management features to keep track of how the project was progressing. Demo reports were created using Overleaf, enabling instant visual feedback of layout and the ability for the team to add comments and feedback.
     title: Organistion Structure
-  - type: team_section
-    title: Our Team
-    team:
-      - data/team/anh.json
-      - data/team/caitlin.json
-      - data/team/apurv.json
-      - data/team/daniel.json
-      - data/team/arnav.json
-      - data/team/sean.json
-      - data/team/austin.json
-      - data/team/mate.json
 seo:
   type: stackbit_page_meta
   title: Team
