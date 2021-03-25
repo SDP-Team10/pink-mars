@@ -3,7 +3,7 @@ baseURL: /
 params:
   header:
     type: header
-    title: Starter
+    title: Railly CLean
     has_nav: true
     nav_links:
       - type: action
