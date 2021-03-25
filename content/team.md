@@ -6,7 +6,7 @@ sections:
     align: center
     subtitle: " The team behind Railly Clean"
   - type: team_section
-    title: Our Team
+    title: ""
     team:
       - data/team/anh.json
       - data/team/caitlin.json
