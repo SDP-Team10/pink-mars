@@ -1,9 +1,10 @@
 ---
-title: Who We Are
+title: Team
 sections:
   - type: hero_section
-    title: Who We Are
+    title: Team
     align: center
+    subtitle: " The team behind Railly Clean"
   - type: content_section
     content: >-
       Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim
@@ -13,11 +14,7 @@ sections:
       adipiscing elit pellentesque habitant.
 
 
-      Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac
-      felis donec et odio pellentesque. Sem nulla pharetra diam sit amet.
-      Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue
-      neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus
-      turpis in eu mi bibendum neque egestas.
+      Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac felis donec et odio pellentesque. Sem nulla pharetra diam sit amet. Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus turpis in eu mi bibendum neque egestas.
   - type: team_section
     title: Our Team
     team:
@@ -31,7 +28,7 @@ sections:
       - data/team/suhas.json
   - type: cta_section
     title: Join the Team
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     actions:
       - type: action
         label: Contact Us
@@ -41,29 +38,29 @@ sections:
     background_color: blue
 seo:
   type: stackbit_page_meta
-  title: Who We Are
-  description: This is the about us page
+  title: Team
+  description: The team behind Railly Clean
   extra:
-    - name: 'og:type'
+    - name: og:type
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: og:title
       value: Who We Are
       keyName: property
-    - name: 'og:description'
+    - name: og:description
       value: This is the about us page
       keyName: property
-    - name: 'og:image'
+    - name: og:image
       value: images/1.png
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: twitter:card
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: twitter:title
       value: Who We Are
-    - name: 'twitter:description'
+    - name: twitter:description
       value: This is the about us page
-    - name: 'twitter:image'
+    - name: twitter:image
       value: images/1.png
       relativeUrl: true
 layout: advanced
