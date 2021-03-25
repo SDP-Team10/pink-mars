@@ -6,6 +6,12 @@ params:
     title: Railly Clean
     has_nav: true
     nav_links:
+      - url: /home
+        style: link
+        new_window: false
+        no_follow: false
+        type: action
+        label: Home
       - type: action
         label: System
         url: /system
