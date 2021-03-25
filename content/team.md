@@ -16,6 +16,7 @@ sections:
       - data/team/sean.json
       - data/team/austin.json
       - data/team/mate.json
+      - data/team/suhas.json
   - type: content_section
     content: >-
       Our team was structured into several smaller sub-teams with each on
