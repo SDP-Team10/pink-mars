@@ -5,6 +5,7 @@ backend:
     open_authoring: true
 media_folder: static/images
 public_folder: /images
+publish_mode: editorial_workflow
 collections:
   - name: config
     label: Site Configuration
