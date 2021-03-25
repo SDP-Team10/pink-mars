@@ -24,8 +24,8 @@ params:
         style: link
       - type: action
         label: Team
-        url: /contact
-        style: primary
+        url: /team
+        style: link
   footer:
     type: footer
     has_nav: true
