@@ -1,6 +1,7 @@
 ---
 title: Home
-sections: []
+sections:
+  - type: content_section
 seo:
   title: ""
   description: ""
