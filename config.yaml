@@ -11,7 +11,7 @@ params:
         url: /system
         style: link
       - type: action
-        label: Blog
+        label: How it works
         url: /blog
         style: link
       - type: action
