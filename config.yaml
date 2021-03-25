@@ -23,7 +23,7 @@ params:
         url: /budget
         style: link
       - type: action
-        label: 
+        label: Team
         url: /contact
         style: primary
   footer:
