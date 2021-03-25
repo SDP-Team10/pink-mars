@@ -2,8 +2,11 @@
 title: Budget
 sections:
   - type: hero_section
-    title: Contact
+    title: Budget
     align: center
+    actions: []
+  - type: content_section
+    content: ">"
 seo:
   type: stackbit_page_meta
   title: Contact
