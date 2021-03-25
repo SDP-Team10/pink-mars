@@ -15,8 +15,8 @@ params:
         url: /how-it-works
         style: link
       - type: action
-        label: About
-        url: /about
+        label: Evaluation
+        url: /evaluation
         style: link
       - type: action
         label: Style Guide
