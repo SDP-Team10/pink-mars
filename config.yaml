@@ -1,4 +1,4 @@
-title: Stackbit Starter Theme
+title: Railly Clean
 baseURL: /
 params:
   header:
@@ -44,21 +44,21 @@ params:
     social_links:
       - type: action
         label: Twitter
-        url: 'https://twitter.com/'
+        url: https://twitter.com/
         style: link
         new_window: true
       - type: action
         label: GitHub
-        url: 'https://github.com/'
+        url: https://github.com/
         style: link
         new_window: true
       - type: action
         label: LinkedIn
-        url: 'https://www.linkedin.com/'
+        url: https://www.linkedin.com/
         style: link
         new_window: true
-    content: '&copy; Railly Clean. All rights reserved. 2020.'
-  domain: 'https://pink-mars-be984.netlify.app'
+    content: "&copy; Railly Clean. All rights reserved. 2020."
+  domain: https://pink-mars-be984.netlify.app
 taxonomies:
   stub: stub
 disableKinds:
