@@ -1,0 +1,8 @@
+{
+  "type": "person",
+  "id": "mate",
+  "first_name": "Máté ",
+  "last_name": "Stodulka",
+  "photo": "/images/mate.jpg",
+  "bio": "Software Engineer and Machine Learning"
+}
