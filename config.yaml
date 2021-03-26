@@ -6,7 +6,7 @@ params:
     title: Railly Clean
     has_nav: true
     nav_links:
-      - url: /home
+      - url: /
         style: link
         new_window: false
         no_follow: false
@@ -18,7 +18,7 @@ params:
         style: link
       - type: action
         label: How it works
-        url: /how-it-works-1
+        url: /how-it-works
         style: link
       - type: action
         label: Evaluation
