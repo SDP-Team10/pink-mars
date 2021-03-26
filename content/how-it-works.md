@@ -73,6 +73,9 @@ sections:
       +include about the
     title: Table Wiping
   - type: content_section
+    content: \[get Apurv to write this as he’s the expert]
+    title: Valuable Detection
+  - type: content_section
     content: The robot centres itself using an array of sensors as well as stickers
       at each end of the carriage. If, during the normal operation on the train
       the robot ends up not being centred in the aisle then it uses the camera
