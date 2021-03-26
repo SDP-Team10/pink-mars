@@ -2,12 +2,15 @@
 title: Budget
 sections:
   - type: hero_section
-    title: Contact
+    title: Budget
     align: center
+    actions: []
+  - type: content_section
+    content: ""
 seo:
   type: stackbit_page_meta
-  title: Contact
-  description: This is the contact page
+  title: Budget
+  description: This is the budget page
   extra:
     - name: og:type
       value: website
