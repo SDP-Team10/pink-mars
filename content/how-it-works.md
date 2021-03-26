@@ -19,6 +19,78 @@ sections:
       The second iteration of the arm was a \[dual/two] section arm that allowed for movement in the middle \[picture of sweeping using this arm]. This arm had problems, principally that it was too large and didn’t tuck down to a small enough size to allow the robot to move through the door of the train.
 
       After a series of tests the final arm was created \[picture of new arm, and potentially some of the rejects]. This new arm allowed the same sweeping motion as the first one but was a much more flexible design which allowed the arm to tuck into a much smaller footprint \[armprint]. This new arm design proved to be difficult to control, the added joint mean that a dedicated kinematics function had to be created to calculate the position that the arm needs to be in to allow it to carry out a sweeping motion.
+  - type: content_section
+    content: >-
+      The cleaning head is located at the end of the arm, it is comprised of a
+      sponge and main section which is used to clean the tables as well as an
+      appendage which is used to clean and press buttons.
+
+      The ‘wings’ on either side of the head are used to prevent rubbish being pushed out of the way, instead guiding it into the middle of the head so that it ends up in the bin. The pressure sensor is used for feedback so the controller knows that the robot is applying enough pressure to the table to clean effectively. The middle section also contains space for a sponge head that will be added to the physical product to allow the robot to clean.\
+
+      \[include labelled head diagram]  \[picture of sponge head?]
+    title: Cleaning head
+  - type: content_section
+    content: >-
+      Initially our robot was created using the TIAGO base that was already
+      present in webots. This off-the-shelf component allowed us to begin
+      working on the movement and detection functions of the robot immediately.
+      However the base included several components that we didn’t need and had
+      several flaws such as instability and lacked the ability to turn in a
+      small enough circle. 
+
+      Taking inspiration from the \[youbot?] we created a new base that uses mechanum wheels. These allow the robot to move in all directions without rotation, making the cleaning process faster and the robot more efficient .
+
+      \[old base -> new base]
+    title: The base
+  - type: content_section
+    content: >-
+      The main body of the robot is hollow, this allowing  0.08m^3 \[remove] of
+      rubbish collected from the tables to be stored in it. On the bin side of
+      the robot the body is split in half, the top section is hinged and
+      controlled by a motor. When the system is in place for wiping the table,
+      the bin opens and accepts rubbish falling in. Between tables the bin is
+      closed. The interior of the robot contains a sensor, which is used to tell
+      when the bin is full. \[what do we do?]
+
+      \[include labelled bin diagram must include rubbish sensor]
+    title: Bin
+  - type: content_section
+    content: Railly clean has a dedicated set of distance sensors on its sides. As
+      the system moves through the carriage the sensors are constantly scanning
+      perpeddicaulr to the direction of movement. The reading are fed back into
+      the controller. The controller processes these inputs \[?] and a certain
+      input means that a table has been detected.
+    title: Table detection
+  - type: content_section
+    content: >-
+      The robot controller calculates the distance that the arm needs to move
+      and wipe out based on the readings given by the distance sensors on the
+      side of the robot. The kinematics function then works out the movements
+      necessary by the arm
+
+      In the case of unexpected failure the robot will simply tuck the arm back into it’s deactived position, making the system robust and preventing the robot getting stuck during cleaning. 
+
+      +include about the
+    title: Table Wiping
+  - type: content_section
+    content: The robot centres itself using an array of sensors as well as stickers
+      at each end of the carriage. If, during the normal operation on the train
+      the robot ends up not being centred in the aisle then it uses the camera
+      to find the sticker at the other end of the carriage and centres itself
+      relative to that.
+    title: Navigation
+  - type: content_section
+    content: Railly clean is a safe robot. The input from the distance sensors is
+      constantly fed into the controller to make sure that the robot isn’t about
+      to collide. In the event of an object being in the way of the robot the
+      robot uses its camera to distinguish between the end of the carriage
+      (identified using a sticker) and any other object.
+    title: Collision avoidance
+  - type: content_section
+    content: One of the features of the system is cleaning buttons. When the system
+      has completed the cleaning of a carriage it will clean the buttons used to
+      open the door \[maybe – check here]
+    title: Button detection
 seo:
   title: How It Works
   description: ""
