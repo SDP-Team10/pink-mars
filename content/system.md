@@ -1,5 +1,5 @@
 ---
-title: Features
+title: System
 sections:
   - type: hero_section
     title: Why Railly Clean
