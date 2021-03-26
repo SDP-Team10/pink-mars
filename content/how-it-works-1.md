@@ -2,8 +2,8 @@
 title: How It Works
 sections:
   - type: content_section
-    content: etc ect bla bla
-    title: Explain
+    content: Railly Clean is an autonomous train cleaning solution.
+    title: Overview
 seo:
   title: ""
   description: ""
