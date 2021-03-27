@@ -15,6 +15,9 @@ sections:
       The robot can be moved up a ramp and onto the train. Once in the carriage it will centre itself using the stickers. It moves forward through the carriage, using the distance sensors on the side to detect tables. Upon reaching a table the robot moves into position to begin wiping as well as opening its bin compartment. Before each wipe it assesses whether there are any valuables in the way, if there are then it avoids that section of the table. If there is only rubbish in the way then the robot will wipe the table, using a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into it’s integrated bin compartment. Once a table has been cleaned the robot reverts back to the state where it’s looking for tables and finding and cleaning them as it goes. Once it reaches the end of the carriage it will turn around and clean the tables on the other side of the carriage. Once all the tables have been cleaned and the robot has reached the end of the carriage it uses its camera to detect the button and cleans and presses it
 
 
+      ![](/images/systemlabel.png "sample title")
+
+
       #### The arm
 
 
@@ -30,9 +33,10 @@ sections:
 
       The cleaning head is located at the end of the arm, it is comprised of a sponge and main section which is used to clean the tables as well as an appendage which is used to clean and press buttons.
 
-      The ‘wings’ on either side of the head are used to prevent rubbish being pushed out of the way, instead guiding it into the middle of the head so that it ends up in the bin. The pressure sensor is used for feedback so the controller knows that the robot is applying enough pressure to the table to clean effectively. The middle section also contains space for a sponge head that will be added to the physical product to allow the robot to clean.\
+      The ‘wings’ on either side of the head are used to prevent rubbish being pushed out of the way, instead guiding it into the middle of the head so that it ends up in the bin. The pressure sensor is used for feedback so the controller knows that the robot is applying enough pressure to the table to clean effectively. The middle section also contains space for a sponge head that will be added to the physical product to allow the robot to clean.
 
-      \[include labelled head diagram]  \[picture of sponge head?]
+
+      ![](/images/headlabel.png)
 
 
       #### Robot base
@@ -40,9 +44,9 @@ sections:
 
       Initially our robot was created using the TIAGO base that was already present in webots. This off-the-shelf component allowed us to begin working on the movement and detection functions of the robot immediately. However the base included several components that we didn’t need and had several flaws such as instability and lacked the ability to turn in a small enough circle. 
 
-      Taking inspiration from the \[youbot?] we created a new base that uses mechanum wheels. These allow the robot to move in all directions without rotation, making the cleaning process faster and the robot more efficient .
+      Taking inspiration from the Kuka Youbot (a robot already present in Webots) we created a new base that uses mechanum wheels. These allow the robot to move in all directions without rotation, making the cleaning process faster and the robot more efficient as it has to spend less time turning and correcting its position.
 
-      \[old base -> new base]
+      picture of \[old base -> new base]
 
 
       #### Bin
