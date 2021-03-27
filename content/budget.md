@@ -6,8 +6,8 @@ sections:
     align: center
     actions: []
   - type: content_section
-    content: "`<table> <thead> <tr> <th> Component </th> <th> Price </th> <th> Count
-      </th> <th> Note </th> <th> Total </th> </tr> </thead>`"
+    content: <table> <thead> <tr> <th> Component </th> <th> Price </th> <th> Count
+      </th> <th> Note </th> <th> Total </th> </tr> </thead>
 seo:
   type: stackbit_page_meta
   title: Budget
