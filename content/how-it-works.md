@@ -46,7 +46,11 @@ sections:
 
       Taking inspiration from the Kuka Youbot (a robot already present in Webots) we created a new base that uses mechanum wheels. These allow the robot to move in all directions without rotation, making the cleaning process faster and the robot more efficient as it has to spend less time turning and correcting its position.
 
-      picture of \[old base -> new base]
+
+
+      ![](/images/baselabelled.png)
+
+
 
 
       #### Bin
