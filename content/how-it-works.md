@@ -3,7 +3,7 @@ title: How It Works
 sections:
   - type: content_section
     content: >-
-      `<center><h1>How does our System Work</h1></center>`
+      <center><h1>How does our System Work</h1></center>
 
 
       ### Overview
