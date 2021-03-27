@@ -1,17 +1,6 @@
 ---
 title: How It Works
 sections:
-  - type: hero_section
-    align: left
-    image_position: left
-    has_background: true
-    background:
-      background_color: white
-      background_image_size: cover
-      background_image_repeat: no-repeat
-      background_image: /images/train.jpg
-    title: Railly Clean
-    subtitle: How it works testing
   - type: content_section
     content: >-
       <center><h1>How does our System Work?</h1></center>
