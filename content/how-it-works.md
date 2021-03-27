@@ -38,6 +38,9 @@ sections:
       \[include labelled head diagram]  \[picture of sponge head?]
 
 
+      ![](/images/headlabel.png)
+
+
       #### Robot base
 
 
