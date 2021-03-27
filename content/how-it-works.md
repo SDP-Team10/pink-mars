@@ -47,10 +47,7 @@ sections:
       Taking inspiration from the Kuka Youbot (a robot already present in Webots) we created a new base that uses mechanum wheels. These allow the robot to move in all directions without rotation, making the cleaning process faster and the robot more efficient as it has to spend less time turning and correcting its position.
 
 
-
       ![](/images/baselabelled.png)
-
-
 
 
       #### Bin
@@ -58,7 +55,9 @@ sections:
 
       The main body of the robot is hollow, this allowing  0.08m^3 \[remove] of rubbish collected from the tables to be stored in it. On the bin side of the robot the body is split in half, the top section is hinged and controlled by a motor. When the system is in place for wiping the table, the bin opens and accepts rubbish falling in. Between tables the bin is closed. The interior of the robot contains a sensor, which is used to tell when the bin is full. \[what do we do?]
 
-      \[include labelled bin diagram must include rubbish sensor]
+
+
+      ![](/images/binlabelled.png)
 
 
       #### Table detection
