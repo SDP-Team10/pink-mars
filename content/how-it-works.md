@@ -73,7 +73,7 @@ sections:
       Railly clean has a dedicated set of distance sensors on its sides. As the system moves through the carriage the sensors are constantly scanning perpeddicaulr to the direction of movement. The readings are fed back into the controller. The controller processes these inputs \[?] and a certain input means that a table has been detected.
 
 
-      \[image of the sensors at work]
+      ![](/images/tabledetectlabelled.png)
 
 
       #### Table Wiping
