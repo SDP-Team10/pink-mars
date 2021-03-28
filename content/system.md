@@ -3,51 +3,59 @@ title: System
 sections:
   - type: hero_section
     title: Why Railly Clean
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    align: center
+  - type: content_card
+    title: Concept
+    content: >-
+       Railly Clean is a train sanitising robot that clears and sanitises train tables while the train is out of transit to reduce the workload of cleaning staff Throughout the UK each year there are 1.7 billion passenger rail journeys Our vision is to augement the existing cleaning staff employed by rail operators with a robot workforce who would be able to speed up the process of cleaning and by reducing the number of repetetive tasks that cleaners have to carry out to allow them to deliver an improved passenger experience. Use cases? Once a train has finished its journeys for the day it needs to be cleaned.
+  - type: hero_section_md
+    title: Features
+    subtitle: A complete set of features to augment your current cleaning solution.
     align: center
   - type: features_section
     features:
       - type: feature
-        title: Feature 1
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
-        align: left
-        image: images/feature.svg
+        title: Automate Cleaning
+        content: Reduce costs and save time by augmenting your current cleaning team with a Railly Clean robot .
+        align: right
+        image: images/plus.png
         image_alt: Feature 1 placeholder image
         image_position: right
-        actions:
-          - type: action
-            label: Learn More
-            url: /about
-            style: primary
       - type: feature
-        title: Feature 2
-        content: Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut diam
-          quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio euismod
-          lacinia.
-        align: left
-        image: images/feature.svg
-        image_alt: Feature 2 placeholder image
-        image_position: left
-        actions:
-          - type: action
-            label: Learn More
-            url: /style-guide
-            style: primary
-      - type: feature
-        title: Feature 3
-        content: Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus eget
-          nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in ante.
-        align: left
-        image: images/feature.svg
-        image_alt: Feature 3 placeholder image
+        title: Self Navigating
+        content:  Able to move around the carriage interior without any assistance.
+        align: right
+        image: images/nav.png
+        image_alt: Feature 1 placeholder image
         image_position: right
-        actions:
-          - type: action
-            label: Learn More
-            url: /blog
-            style: primary
+      - type: feature
+        title: Obstacle Avoidance
+        content: An array of sensors prevent any collisions.
+        align: right
+        image: images/warning.png
+        image_alt: Feature 1 placeholder image
+        image_position: right
+      - type: feature
+        title: 98%(!) Table Coverage
+        content: Reliable and consistent table cleaning.
+        align: right
+        image: images/tick.png
+        image_alt: Feature 1 placeholder image
+        image_position: right
+      - type: feature
+        title: Rubbish Collection
+        content: An integrated bin inside the robot collects rubbish as the robot moves along the carriage.
+        align: right
+        image: images/bin.png
+        image_alt: Feature 1 placeholder image
+        image_position: right
+      - type: feature
+        title: Button Cleaning
+        content: Sanitises a key touch point for all passengers. 
+        align: right
+        image: images/sanitise.png
+        image_alt: Feature 1 placeholder image
+        image_position: right
 seo:
   type: stackbit_page_meta
   title: System
