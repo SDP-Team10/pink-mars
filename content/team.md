@@ -17,7 +17,7 @@ sections:
       - data/team/austin.json
       - data/team/mate.json
       - data/team/suhas.json
-  - type: content_section
+  - type: content_card
     content: >-
       Our team was structured into several smaller sub-teams with each on
       focused on a particular aspect of the development of the project. Members
