@@ -12,16 +12,18 @@
   flex-grow: 1;
 }
 
+
 .cell {
   .card {
     height: 100%;
   }
+  padding-top: 1rem;
 }
 
 .card__media {
   img {
     display: block;
-    width: 100%;
+    width: auto;
   }
 
   &:only-child {
