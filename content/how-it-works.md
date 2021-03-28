@@ -34,8 +34,6 @@ sections:
       ![](/images/armlabelled.png)
 
 
-
-
       #### Cleaning head
 
 
@@ -86,7 +84,7 @@ sections:
       +include about the
 
 
-      \[picture of table wiping]
+      ![](/images/wipelabelled.png)
 
 
       #### Valuable Detection
