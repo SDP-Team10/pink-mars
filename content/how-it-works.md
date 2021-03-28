@@ -1,24 +1,25 @@
 ---
 title: How It Works
 sections:
+  - type: hero_section
+    title: How does our System Work?
+    align: center
   - type: content_section
-    content: >-
-      <center><h1>How does our System Work?</h1></center>
-
-
+    content: >
       ![](/images/evolution.png)
-
-
-      #### Startup
-
+  - type: content_card
+    title: Startup
+    content: >-
+    
 
       To get it onto the train the robot can be wheeled up a ramp. Once in the carriage it will centre itself using the stickers. It moves forward through the carriage, using the distance sensors on the side to detect tables. Upon reaching a table the robot moves into position to begin wiping as well as opening its bin compartment. Before each wipe it assesses whether there are any valuables in the way, if there are then it avoids that section of the table. If there is only rubbish in the way then the robot will wipe the table, using a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into it’s integrated bin compartment. Once a table has been cleaned the robot reverts back to the state where it’s looking for tables and finding and cleaning them as it goes. Once it reaches the end of the carriage it will turn around and clean the tables on the other side of the carriage. Once all the tables have been cleaned and the robot has reached the end of the carriage it uses its camera to detect the button to operate the door, it then presses and cleans it, exiting the carriage by the door. 
 
 
       ![](/images/systemlabel.png "sample title")
 
-
-      #### The arm
+  - type: content_card
+    title: The Arm
+    content: >-
 
 
       One of the key components of the robot was the arm, this is the part of the robot that underwent the most changes as the project progressed. Initially we were going to use a standard arm the \[insert arm name here] however it soon proved to be too small and ineffective for the job. 
@@ -34,8 +35,9 @@ sections:
       ![](/images/armlabelled.png)
 
 
-      #### Cleaning head
-
+  - type: content_card
+    title: Cleaning head
+    content: >-
 
       The cleaning head is located at the end of the arm, it is comprised of a sponge and main section which is used to clean the tables as well as an appendage which is used to clean and press buttons.
 
@@ -45,7 +47,9 @@ sections:
       ![](/images/headlabel.png)
 
 
-      #### Robot base
+  - type: content_card
+    title: Robot Base
+    content: >-
 
 
       Initially our robot was created using the TIAGO base that was already present in webots. This off-the-shelf component allowed us to begin working on the movement and detection functions of the robot immediately. However the base included several components that we didn’t need and had several flaws such as instability and lacked the ability to turn in a small enough circle. 
@@ -56,7 +60,9 @@ sections:
       ![](/images/baselabelled.png)
 
 
-      #### Bin
+  - type: content_card
+    title: Bin
+    content: >-
 
 
       The main body of the robot is hollow, this allowing  0.08m^3 \[remove] of rubbish collected from the tables to be stored in it. On the bin side of the robot the body is split in half, the top section is hinged and controlled by a motor. When the system is in place for wiping the table, the bin opens and accepts rubbish falling in. Between tables the bin is closed. The interior of the robot contains a sensor, which is used to tell when the bin is full. \[what do we do?]
@@ -65,7 +71,9 @@ sections:
       ![](/images/binlabelled.png)
 
 
-      #### Table detection
+  - type: content_card
+    title: Table Detection
+    content: >-
 
 
       Railly clean has a dedicated set of distance sensors on its sides. As the system moves through the carriage the sensors are constantly scanning perpeddicaulr to the direction of movement. The readings are fed back into the controller. The controller processes these inputs \[?] and a certain input means that a table has been detected.
@@ -74,7 +82,9 @@ sections:
       ![](/images/tabledetectlabelled.png)
 
 
-      #### Table Wiping
+  - type: content_card
+    title: Table Wiping
+    content: >-
 
 
       The robot controller calculates the distance that the arm needs to move and wipe out based on the readings given by the distance sensors on the side of the robot. The kinematics function then works out the movements necessary by the arm
@@ -87,13 +97,17 @@ sections:
       ![](/images/wipelabelled.png)
 
 
-      #### Valuable Detection
+  - type: content_card
+    title: Valuable Detection
+    content: >-
 
 
       \[get Apurv to write this as he’s the expert]
 
 
-      #### Navigation
+  - type: content_card
+    title: Navigation
+    content: >-
 
 
       The robot centres itself using an array of sensors as well as stickers at each end of the carriage. If, during the normal operation on the train the robot ends up not being centred in the aisle then it uses the camera to find the sticker at the other end of the carriage and centres itself relative to that.
@@ -102,17 +116,19 @@ sections:
       \[ask Suhas to do this]?
 
 
-      #### Collision avoidance
+  - type: content_card
+    title: Collision Avoidance
+    content: >-
 
 
       Railly clean is a safe robot. The input from the distance sensors is constantly fed into the controller to make sure that the robot isn’t about to collide with anuything. In the event of an object being in the way of the robot it uses its camera to distinguish between the end of the carriage (identified using a sticker) and any other object that may be causing an obstruction.
 
 
-      #### Button detection
-
+  - type: content_card
+    title: Button Detection
+    content: >-
 
       One of the features of the system is cleaning buttons. When the system has completed the cleaning of a carriage it will clean the buttons used to open the door \[maybe – check here]
-    title: ""
 seo:
   title: How It Works
   description: ""
