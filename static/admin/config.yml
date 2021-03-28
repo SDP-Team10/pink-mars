@@ -688,6 +688,26 @@ collections:
                 required: true
                 hint: The type of the object
                 default: content_section
+          - name: content_card
+            widget: object
+            label: Content Card
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                required: false
+                hint: The title of the section
+              - widget: markdown
+                name: content
+                label: Content
+                required: false
+                hint: The text content of the section
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: content_card
           - name: cta_section
             widget: object
             label: CTA Section
@@ -1009,6 +1029,147 @@ collections:
                 required: true
                 hint: The type of the object
                 default: hero_section
+          - name: hero_section_md
+            widget: object
+            label: Hero Section Medium
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                required: false
+                hint: The title of the section
+              - widget: string
+                name: subtitle
+                label: Subtitle
+                required: false
+                hint: The subtitle of the section
+              - widget: list
+                name: actions
+                label: Action Buttons
+                required: false
+                fields:
+                  - widget: string
+                    name: label
+                    label: Label
+                    required: true
+                  - widget: string
+                    name: url
+                    label: URL
+                    required: true
+                    default: '#'
+                  - widget: select
+                    name: style
+                    label: Style
+                    required: true
+                    default: link
+                    options:
+                      - link
+                      - primary
+                      - secondary
+                  - widget: boolean
+                    name: new_window
+                    label: Open in new tab/window
+                    required: false
+                    default: false
+                  - widget: boolean
+                    name: no_follow
+                    label: No follow
+                    required: false
+                    default: false
+                    hint: Add rel="nofollow" attribute to the link
+                  - widget: hidden
+                    name: type
+                    label: Object Type
+                    required: true
+                    hint: The type of the object
+                    default: action
+              - widget: select
+                name: align
+                label: Align
+                required: false
+                default: left
+                hint: The alignment of the text content
+                options:
+                  - left
+                  - right
+                  - center
+              - widget: image
+                name: image
+                label: Image
+                required: false
+                hint: The image of the section
+              - widget: string
+                name: image_alt
+                label: Image Alt Text
+                required: false
+                hint: The alt text of the image
+              - widget: select
+                name: image_position
+                label: Image Position
+                required: false
+                default: left
+                hint: The position of the image
+                options:
+                  - left
+                  - right
+              - widget: boolean
+                name: has_background
+                label: Enable section background
+                required: false
+                default: false
+              - widget: object
+                name: background
+                label: Background Configuration
+                required: false
+                fields:
+                  - widget: select
+                    name: background_color
+                    label: Background Color
+                    required: false
+                    default: white
+                    hint: The background color of the section
+                    options:
+                      - white
+                      - gray
+                      - blue
+                  - widget: image
+                    name: background_image
+                    label: Background Image
+                    required: false
+                    hint: The image displayed in the background of the section
+                  - widget: number
+                    name: background_image_opacity
+                    label: Background Image Opacity
+                    required: false
+                    hint: >-
+                      An integer between 0 and 100. A lower value makes the
+                      image more transparent.
+                    valueType: int
+                  - widget: select
+                    name: background_image_size
+                    label: Background Image Size
+                    required: false
+                    default: cover
+                    hint: The size of the background image
+                    options:
+                      - auto
+                      - contain
+                      - cover
+                  - widget: select
+                    name: background_image_repeat
+                    label: Background Image Repeat
+                    required: false
+                    default: no-repeat
+                    hint: Repeat the image to cover the whole area.
+                    options:
+                      - repeat
+                      - no-repeat
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: hero_section_md
           - name: team_section
             widget: object
             label: Team Section
