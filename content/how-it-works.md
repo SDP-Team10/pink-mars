@@ -25,7 +25,15 @@ sections:
 
       The second iteration of the arm was a \[dual/two] section arm that allowed for movement in the middle \[picture of sweeping using this arm]. This arm had problems, principally that it was too large and didn’t tuck down to a small enough size to allow the robot to move through the door of the train.
 
-      After a series of tests the final arm was created \[picture of new arm, and potentially some of the rejects]. This new arm allowed the same sweeping motion as the first one but was a much more flexible design which allowed the arm to tuck into a much smaller footprint \[armprint]. This new arm design proved to be difficult to control, the added joint mean that a dedicated kinematics function had to be created to calculate the position that the arm needs to be in to allow it to carry out a sweeping motion.
+      After a series of tests the final arm was created \[picture of new arm, and potentially some of the rejects]. This new arm allowed the same sweeping motion as the first one but was a much more flexible design which allowed the arm to tuck into a much smaller footprint \[armprint]. 
+
+
+      This new arm design proved to be difficult to control, the added joint mean that a dedicated kinematics function had to be created to calculate the position that the arm needs to be in to allow it to carry out a sweeping motion. Despite this initial setback the arm now has a smooth and consistent sweeping motion.
+
+
+      ![](/images/armlabelled.png)
+
+
 
 
       #### Cleaning head
