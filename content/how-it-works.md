@@ -10,9 +10,9 @@ sections:
   - type: content_card
     title: Startup
     content: >-
-    
 
-      To get it onto the train the robot can be wheeled up a ramp. Once in the carriage it will centre itself using the stickers. It moves forward through the carriage, using the distance sensors on the side to detect tables. Upon reaching a table the robot moves into position to begin wiping as well as opening its bin compartment. Before each wipe it assesses whether there are any valuables in the way, if there are then it avoids that section of the table. If there is only rubbish in the way then the robot will wipe the table, using a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into it’s integrated bin compartment. Once a table has been cleaned the robot reverts back to the state where it’s looking for tables and finding and cleaning them as it goes. Once it reaches the end of the carriage it will turn around and clean the tables on the other side of the carriage. Once all the tables have been cleaned and the robot has reached the end of the carriage it uses its camera to detect the button to operate the door, it then presses and cleans it, exiting the carriage by the door. 
+      ####Startup
+      To get it onto the train the robot can be wheeled up a ramp. Once in the carriage it will centre itself using the stickers. It moves forward through the carriage, using the distance sensors on the side to detect tables. Upon reaching a table the robot moves into position to begin wiping as well as opening its bin compartment. Before each wipe it assesses whether there are any valuables in the way, if there are then it avoids that section of the table. If there is only rubbish in the way then the robot will wipe the table, using a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into it’s integrated bin compartment. Once a table has been cleaned the robot reverts back to the state where it’s looking for tables and finding and cleaning them as it goes. Once it reaches the end of the carriage it will turn around and clean the tables on the other side of the carriage. Once all the tables have been cleaned and the robot has reached the end of the carriage it uses its camera to detect the button to operate the door, it then presses and cleans it, exiting the carriage by the door.
 
 
       ![](/images/robotlabelled.png "sample title")
@@ -22,15 +22,15 @@ sections:
     content: >-
 
 
-      One of the key components of the robot was the arm, this is the part of the robot that underwent the most changes as the project progressed. Initially we were going to use a standard arm the \[insert arm name here] however it soon proved to be too small and ineffective for the job. 
+      One of the key components of the robot was the arm, this part of the robot underwent the most changes as the project progressed. Initially the design planned to use a pre-made arm (the Pincher X 100 Robotic Arm) however it soon proved to be too small and therefore would be ineffective for the job.
 
-      The second iteration of the arm was a \[dual/two] section arm that allowed for movement in the middle \[picture of sweeping using this arm]. This arm had problems, principally that it was too large and didn’t tuck down to a small enough size to allow the robot to move through the door of the train.
+      The second iteration of the arm was a two section arm that allowed for movement in the middle. Despite being able to wipe tables this arm had problems, principally that it was too large and didn’t tuck down to a small enough size to allow the robot to move through the door of the train.
 
-      After a series of tests the final arm was created \[picture of new arm, and potentially some of the rejects]. This new arm allowed the same sweeping motion as the first one but was a much more flexible design which allowed the arm to tuck into a much smaller footprint \[armprint]. 
+      ![](/images/2secsweep.png)
 
+      After a number of iterations and creation of several designs, the final arm was created. The arm comprises of 3 sections and a cleaning head that can be manipulated using rotational motors. This new arm allows the same sweeping motion as the initial design but is a much more flexible design which allowed the arm to tuck in and take up a much smaller area when not in use.
 
-      This new arm design proved to be difficult to control, the added joint mean that a dedicated kinematics function had to be created to calculate the position that the arm needs to be in to allow it to carry out a sweeping motion. Despite this initial setback the arm now has a smooth and consistent sweeping motion.
-
+      The final design initially proved to be difficult to control, the added joint meant that a dedicated kinematics function had to be created to calculate the position and forces required by the motors so that carry the arm can carry out a sweeping motion. Despite this initial setback the arm now has a smooth and consistent sweeping motion which cleans the table and pushes rubbish into its bin.
 
       ![](/images/armlabelled.png)
 
@@ -52,7 +52,7 @@ sections:
     content: >-
 
 
-      Initially our robot was created using the TIAGO base that was already present in webots. This off-the-shelf component allowed us to begin working on the movement and detection functions of the robot immediately. However the base included several components that we didn’t need and had several flaws such as instability and lacked the ability to turn in a small enough circle. 
+      Initially our robot was created using the TIAGO base that was already present in webots. This off-the-shelf component allowed us to begin working on the movement and detection functions of the robot immediately. However the base included several components that we didn’t need and had several flaws such as instability and lacked the ability to turn in a small enough circle.
 
       Taking inspiration from the Kuka Youbot (a robot already present in Webots) we created a new base that uses mechanum wheels. These allow the robot to move in all directions without rotation, making the cleaning process faster and the robot more efficient as it has to spend less time turning and correcting its position.
 
@@ -89,7 +89,7 @@ sections:
 
       The robot controller calculates the distance that the arm needs to move and wipe out based on the readings given by the distance sensors on the side of the robot. The kinematics function then works out the movements necessary by the arm
 
-      In the case of unexpected failure the robot will simply tuck the arm back into it’s deactived position, making the system robust and preventing the robot getting stuck during cleaning. 
+      In the case of unexpected failure the robot will simply tuck the arm back into it’s deactived position, making the system robust and preventing the robot getting stuck during cleaning.
 
       +include about the
 
