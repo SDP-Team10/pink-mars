@@ -62,6 +62,11 @@
   margin-top: 0;
 }
 
+.card__bottom {
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
 .card__meta,
 .card__footer {
   color: $color-meta;

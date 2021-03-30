@@ -102,6 +102,9 @@ sections:
 
       To make sure that Railly Clean does not clear tables where passengers might have left their valuables behind we have created a valuable detection algorithm. To do this we have trained a model to distingush between cleanable and valuable items and surfaces. We achieved this by using transfer learning and retraining the SOTA EfficientNet model for image classfication. We used Tensorflow to train out model and create a tflite version which is optimized to work on devices with lower computational power like a Raspberry Pi. This means our model can work and give inferences entirely locally without relying on an hosted API making it secure and privacy friendly. By the help of a large dataset of pictures we collected we were successfully able to repurpose the general image classification EfficientNet model to a highly accurate valuable vs cleanable classifer. The accuracy of our classfications is around 99%! Now whenever we detect a table, we first take a picture, which our model classifies as valuable or cleanable. In the case we get a valuable classification we don't clean the table otherwise we continue as normal.
 
+      
+      A demo of this model is available [here](/playground) to explore.
+
   - type: content_card
     title: Navigation
     content: >-
