@@ -2,5 +2,6 @@
 title: Home
 sections:
   - type: content_section
-    content: "![](/images/home_poster.png)"
+    content: '![Home Poster](/images/home_poster.png "Home Poster")'
+    title: Home
 ---
