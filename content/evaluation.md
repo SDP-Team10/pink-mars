@@ -10,19 +10,42 @@ sections:
   - type: content_card
     title: Whole system specifications
     content: >-
-
-
-      Specification                               | Value     
-      --------------------------------------------|------------
-      Energy expended to complete a carriage      | 60Wh       
-      Time taken to clean 1mx0.8m table           | 2 minutes  
-      Time taken to detect and push button        | 25 seconds 
-      Maximum slope of ramp travellable           | 10°        
-      Maximum time needed to centre               | 1 minute   
-      Time taken to complete a carriage in Webots | 20 minutes 
-
+      <table>
+      <thead>
+        <tr>
+          <th>Specification</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Energy expended to complete a carriage</td>
+          <td>60Wh</td>
+        </tr>
+        <tr>
+          <td>Time taken to clean 1mx0.8m table</td>
+          <td>2 minutes</td>
+        </tr>
+        <tr>
+          <td>Time taken to detect and push button</td>
+          <td>25 seconds</td>
+        </tr>
+        <tr>
+          <td>Maximum slope of ramp travellable</td>
+          <td>10°</td>
+        </tr>
+        <tr>
+          <td>Maximum time needed to centre</td>
+          <td>1 minute</td>
+        </tr>
+        <tr>
+          <td>Time taken to complete a carriage in Webots</td>
+          <td>20 minutes</td>
+        </tr>
+      </tbody>
+      </table>
       
-
+      
       Based on the energy consumption reported by Webots at the end of a whole-carriage system run, a 6000mAh battery (14.4V) would deliver enough power to last a single use even with overhead, and could be easily switched out if short on time or fully recharged in under an hour (especially as the battery will likely not have been depleted).
 
 
