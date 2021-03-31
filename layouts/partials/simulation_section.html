@@ -5,8 +5,9 @@
     <h2 class="section__title align-center">{{ $section.title }}</h2>
     {{ end }}
     <div id="view3d"></div>
+    <br>
     {{ if $section.content }}
-      <div class="section__copy">
+      <div class="card cell card__copy">
         {{ partial "markdownify-block" $section.content }}
       </div>
     {{ end }}
