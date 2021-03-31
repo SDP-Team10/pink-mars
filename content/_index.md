@@ -11,9 +11,9 @@ sections:
       background_image_repeat: no-repeat
     title: Railly Clean
   - type: content_section
-    content: >-
-      <p align="center" width="100%"> <img src="/images/home_poster.png" alt="Home Poster"> </p>
-    title: Home
+    content: <p align="center" width="100%"> <img src="/images/home_poster.png"
+      alt="Home Poster"> </p>
+    title: ""
 seo:
   title: Home
   extra:
