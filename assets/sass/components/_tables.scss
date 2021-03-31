@@ -27,7 +27,7 @@ td {
 }
 
 th {
-  color: $color-heading;
+  color: #ffe4de;
   font-weight: 700;
 }
 
@@ -40,14 +40,14 @@ th {
   overflow-x: auto;
   width: 100%;
   border-collapse: collapse;
-  background-color: #fffde7;
+  background-color: #ffffff;
   margin: 25px 0;
   min-width: 300px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .responsive-table thead tr {
-  background-color: #89cff0 ;
+  background-color: #050456  ;
   color: #ffffff;
   text-align: center;
   border-bottom: 2px solid #536171;
