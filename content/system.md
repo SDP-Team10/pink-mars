@@ -7,7 +7,19 @@ sections:
   - type: content_card
     title: Concept
     content: >-
-       Railly Clean is a train sanitising robot that clears and sanitises train tables while the train is out of transit to reduce the workload of cleaning staff Throughout the UK each year there are 1.7 billion passenger rail journeys Our vision is to augement the existing cleaning staff employed by rail operators with a robot workforce who would be able to speed up the process of cleaning and by reducing the number of repetetive tasks that cleaners have to carry out to allow them to deliver an improved passenger experience. Use cases? Once a train has finished its journeys for the day it needs to be cleaned.
+      Railly Clean clears and disinfects train carriage tables while out of transit to improve sanitation and overall passenger satisfaction on trains.
+      
+
+      During the Covid-19 pandemic, thorough cleaning of key touchpoints on trains has been increased, but we believe high standards of cleaning should be maintained beyond the pandemic. According to Scotrail’s Passenger Satisfaction Remedial Plan of 2019, even pre-pandemic, interior train cleanliness was deemed to be the second most important contributor to overall customer satisfaction. Even so, a National Rail Passenger Survey showed a dramatic decrease in interior cleanliness perceived by commuters from the 2017 to 2018 period. The key suggestion by the committee in order to improve this declining satisfaction, was to improve fleet cleanliness standards within core peak hours of operation. This is where we come in.
+
+
+      Our robots are a one-time investment, costing only £614.95 each to manufacture. This is equivalent to just 69 hours of minimum wage work. As a Covid-19 Public Attitudes survey have revealed: 32% of Rail Operators have expressed concern that the pandemic will have a lasting effect on passenger numbers. 49% of people from the same survey say that they would rather travel by car than public transport even after restrictions are lifted. With increased focus on hygiene since the pandemic, investing in Railly Clean would provide reassurance to passengers that they will be safe as regular cleaning of carriages will continue post-pandemic, helping operators win back the trust of passengers.
+
+
+      Railly Cleans wil be present on the platform and board trains at major stops with sufficient waiting times. While the train is stationary and free of passengers, multiple robots will be working efficiently together with a cleaner to clean train carriages just before passengers start to board. A single member of staff is required to place accessible ramps at each carriage, allowing each Railly Clean to navigate into its carriage ready to clean tables. Once Railly clean has finished its run, a cleaner can quickly walk down the carriages picking up minimal leftover rubbish or collecting valuables left by passengers which Railly Clean has intelligently avoided cleaning. 
+       
+       
+       Use cases? Once a train has finished its journeys for the day it needs to be cleaned.
   - type: simulation_section
     title: Simulation of our system
     content: >-
@@ -17,7 +29,6 @@ sections:
         - The robot can be equiped
         with various sensors (including the Microsoft Kinect) and configured with
         zero, one or two arms.
-
   - type: hero_section_md
     title: Features
     subtitle: A complete set of features to augment your current cleaning solution.
@@ -95,5 +106,3 @@ seo:
       relativeUrl: true
 layout: advanced
 ---
-
-  
