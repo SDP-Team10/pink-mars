@@ -17,9 +17,14 @@ sections:
 
 
       Railly Cleans wil be present on the platform and board trains at major stops with sufficient waiting times. While the train is stationary and free of passengers, multiple robots will be working efficiently together with a cleaner to clean train carriages just before passengers start to board. A single member of staff is required to place accessible ramps at each carriage, allowing each Railly Clean to navigate into its carriage ready to clean tables. Once Railly clean has finished its run, a cleaner can quickly walk down the carriages picking up minimal leftover rubbish or collecting valuables left by passengers which Railly Clean has intelligently avoided cleaning. 
-       
-       
-       Use cases? Once a train has finished its journeys for the day it needs to be cleaned.
+  - type: content_card
+    title: Use Cases
+    content: >-
+        ### Use Case 1
+
+        ### Use Case 2
+
+        ### Use Case 3
   - type: simulation_section
     title: Simulation of our system
     content: >-
