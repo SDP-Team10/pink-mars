@@ -2,14 +2,25 @@
  * Cards
  */
 .card {
-  background-color: $color-bg;
+  background-color: $card-bg;
   border: 1px solid $color-border;
   border-radius: 3px;
+  color: $card-text;
   box-shadow: $box-shadow;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+}
+
+.card h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+color: $card-header;
+
 }
 
 

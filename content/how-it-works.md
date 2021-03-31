@@ -11,40 +11,17 @@ sections:
     title: Startup
     content: >-
       <h3>Physical setup</h3>
-      To get it onto the train the robot can be wheeled up a ramp. Once in the carriage it will centre itself using the stickers. It moves forward through the carriage, using the distance sensors on the side to detect tables. Upon reaching a table the robot moves into position to begin wiping as well as opening its bin compartment. Before each wipe it assesses whether there are any valuables in the way, if there are then it avoids that section of the table. If there is only rubbish in the way then the robot will wipe the table, using a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into it’s integrated bin compartment. Once a table has been cleaned the robot reverts back to the state where it’s looking for tables and finding and cleaning them as it goes. Once it reaches the end of the carriage it will turn around and clean the tables on the other side of the carriage. Once all the tables have been cleaned and the robot has reached the end of the carriage it uses its camera to detect the button to operate the door, it then presses and cleans it, exiting the carriage by the door.
+      The robot needs to travel up and down a ramp to get on and off the train. Once in the carriage, it will centre itself using the included stickers placed on doors.
+
+      ![](/images/yellow_sticker.png =100x20)
+
+      As it goes down the aisle, the left distance sensor is used to detect the presence of a table. Upon reaching a table, the robot moves into position to begin wiping as well as opening its bin compartment. It first assesses whether there are any valuables in the way before wiping, and avoids cleaning the section if so. If it deems the section clear of valuables, the robot will wipe with a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into the integrated bin. Once a table has been cleaned, the robot reverts back to detecting tables, finding and cleaning them as it goes, as well as turning around at the end of carriage around to clean the other side of the carriage. Once all the tables have been cleaned and the robot has reached the door it came in through, the front camera is used to detect the button to operate the door, cleaning it before pressing it to exit the carriage.
 
       <h3>App Setup</h3>
       Railly Clean will work directly out of the box.
       A mobile app is also provided to allow our customers to enter in certain setup parameters to customise and optimise Railly Clean to different trains, right on your smartphones.
 
       Please ensure that your smartphone has Bluetooth enabled and is connected to the Internet—this allows us to bring Railly Clean important updates!
-
-      <div class="responsive-table" width="30%>
-        <table>
-          <thead>
-            <tr>
-              <th>Android</th>
-              <th>iPhone</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <span>Open Play Store on your smartphone <br>
-                      Tap Search Bar and search RCapp <br>
-                      Tap Install and wait until downloaded
-                </span>
-              </td>
-              <td>
-                <span>Open App Store on your smartphone
-                  Tap Search and search RCapp
-                  Tap GET and wait until downloaded
-                  </span>
-              </td>
-             </tr>
-            </tbody>
-        </table>
-      </div>
 
       Once you have installed and opened the app, you will see a page to enter in different parameters.
       The guide provides you an overview on how to set up the parameters.
@@ -62,17 +39,9 @@ sections:
     title: The Arm
     content: >-
 
+      One of the key components of the robot is the arm: this part of the robot underwent the most changes as the project progressed. Initially the design planned to use a pre-made arm (the Pincher X 100 Robotic Arm). However, its small size was rather ineffective for the job. The second iteration of the arm was a two-section arm that allowed for movement in the middle joint. While it worked well for wiping tables, the arm principally was too large and didn’t tuck down to a small enough size for moving through the carriage's door.
 
-      One of the key components of the robot was the arm, this part of the robot underwent the most changes as the project progressed. Initially the design planned to use a pre-made arm (the Pincher X 100 Robotic Arm) however it soon proved to be too small and therefore would be ineffective for the job.
-
-      The second iteration of the arm was a two section arm that allowed for movement in the middle. Despite being able to wipe tables this arm had problems, principally that it was too large and didn’t tuck down to a small enough size to allow the robot to move through the door of the train.
-
-
-
-      <ims src="/images/2secsweep.png" width="50%"/>
       ![](/images/2secsweep.png)
-
-
 
       After a number of iterations and creation of several designs, the final arm was created. The arm comprises of 3 sections and a cleaning head that can be manipulated using rotational motors. This new arm allows the same sweeping motion as the initial design but is a much more flexible design which allowed the arm to tuck in and take up a much smaller area when not in use.
 
@@ -172,9 +141,9 @@ sections:
     title: Button Detection
     content: >-
 
-      One of the features of the system is cleaning and operating buttons. Railly clean uses image recognition to identify a buttons. Once it has finished cleaning a carriage it will A
+      One of the features of the system is cleaning and operating buttons. This is an important feature as the robot navigates the train and moves in and out of carriages.  Railly clean uses image recognition to identify buttons. Once a button has been identified the image from the camera is passed to the controller for vision processing in Python. The position in 2d from the camera is converted to a 3d position relative to the arm. The kinematics controller then calculates the movements required to move the button pressing appendage to the button, and press it.
 
-      [picture of button pressing!] [pic of detection?]
+      ![](/images/buttonlabelled.png)
 seo:
   title: How It Works
   description: ""
