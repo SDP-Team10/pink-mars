@@ -155,4 +155,4 @@ seo:
 layout: advanced
 ---
 
-<embed src="/pdf/SDP-Group10-User-Guide.pdf" width= "500" height= "375">
+<embed src="/pdf/SDP-Group10-User-Guide.pdf" width= "500" height= "375", type="application/pdf">
