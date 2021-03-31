@@ -21,7 +21,9 @@ seo:
     - name: twitter:description
       value: This is the budget page
 layout: page
+
 ---
+<h2>Consumption of human resources</h2>
 <div class="responsive-table">
   <table>
     <thead>
@@ -52,13 +54,13 @@ layout: page
           <span>Technician Time</span>
         </td>
         <td>
-          <span>x Hours</span>
+          <span>2 Hours</span>
         </td>
         <td>
           <span>10 Hours</span>
         </td>
         <td>
-          <span>x%</span>
+          <span>20%</span>
         </td>
       </tr>
       <tr>
@@ -78,7 +80,7 @@ layout: page
     </tbody>
   </table>
 </div>
-
+<h2>Estimated production cost</h2>
   <div class="responsive-table">
     <table>
       <thead>
