@@ -19,33 +19,6 @@ sections:
 
       Please ensure that your smartphone has Bluetooth enabled and is connected to the Internet—this allows us to bring Railly Clean important updates!
 
-      <div class="responsive-table" width="30%>
-        <table>
-          <thead>
-            <tr>
-              <th>Android</th>
-              <th>iPhone</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <span>Open Play Store on your smartphone <br>
-                      Tap Search Bar and search RCapp <br>
-                      Tap Install and wait until downloaded
-                </span>
-              </td>
-              <td>
-                <span>Open App Store on your smartphone
-                  Tap Search and search RCapp
-                  Tap GET and wait until downloaded
-                  </span>
-              </td>
-             </tr>
-            </tbody>
-        </table>
-      </div>
-
       Once you have installed and opened the app, you will see a page to enter in different parameters.
       The guide provides you an overview on how to set up the parameters.
 
@@ -69,7 +42,6 @@ sections:
 
 
 
-      <ims src="/images/2secsweep.png" width="50%"/>
       ![](/images/2secsweep.png)
 
 
