@@ -23,7 +23,7 @@ seo:
 layout: page
 
 ---
-<h2>Consumption of human resources</h2>
+<h3>Consumption of human resources</h3>
 <div class="responsive-table">
   <table>
     <thead>
@@ -65,13 +65,13 @@ layout: page
       </tr>
       <tr>
         <td>
-          <span>Materials Cost</span>
+          <span>Physical Materials</span>
         </td>
         <td>
-          <span>0£ (simulation based)</span>
+          <span>£0 - simulation</span>
         </td>
         <td>
-          <span>0£ (simulation based)</span>
+          <span>£0 - simulation</span>
         </td>
         <td>
           <span>0%</span>
@@ -80,7 +80,7 @@ layout: page
     </tbody>
   </table>
 </div>
-<h2>Estimated production cost</h2>
+<h3>Estimated production cost</h3>
   <div class="responsive-table">
     <table>
       <thead>
