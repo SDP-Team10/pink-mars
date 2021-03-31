@@ -51,7 +51,7 @@ layout: page
       </tr>
       <tr>
         <td>
-          <span>Technician Time</span>
+          <span>Consultation Time</span>
         </td>
         <td>
           <span>2 Hours</span>

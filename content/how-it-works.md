@@ -56,9 +56,6 @@ sections:
       Tap Confirm Configurations to finish the process. Clicking this button will transfer the environment setup data to the robot.
 
 
-
-
-
       ![](/images/robotlabelled.png "sample title")
 
   - type: content_card
