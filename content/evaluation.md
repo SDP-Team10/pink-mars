@@ -145,7 +145,7 @@ sections:
       <table> <thead>
         <tr>
           <th>Displacement (m)</th>
-          <th>Rotation (\*\*°\*\*)</th>
+          <th>Rotation (°)</th>
           <th>Time (s)</th>
         </tr>
       </thead> <tbody>
