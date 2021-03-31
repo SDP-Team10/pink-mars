@@ -22,25 +22,10 @@
     rel="stylesheet"
   />
   </style>
-  <script src="https://www.cyberbotics.com/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.js"></script>
-  <script src="https://www.cyberbotics.com/jquery-dialogextend/2.0.4/jquery.dialogextend.min.js"></script>
-  <script src="https://www.cyberbotics.com/ace/1.2.0/ace.js"></script>
-  <script src="https://www.cyberbotics.com/wwi/R2021a/webots.min.js"></script>
-  <script>
-    function init() {
-      var view = new webots.View(document.getElementById("view3d"));
-      view.open("/sim/youbot.x3d");
-      view.setAnimation("/sim/youbot.json", "play", true);
-    }
-    window.addEventListener("load", init, false);
-    if (
-      location.protocol == "file:" &&
-      !!window.chrome &&
-      !!window.chrome.webstore
-    )
-      alert(
-        "Webots HTML5 Models and Animations cannot be loaded locally on Google Chrome, as Chrome does not support cross-origin requests using the file:// protocol."
-      );
-  </script>
+  <script src="https://www.cyberbotics.com/jquery/1.11.3/jquery.min.js" defer></script>
+  <script src="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.js" defer></script>
+  <script src="https://www.cyberbotics.com/jquery-dialogextend/2.0.4/jquery.dialogextend.min.js" defer></script>
+  <script src="https://www.cyberbotics.com/ace/1.2.0/ace.js" defer></script>
+  <script src="https://www.cyberbotics.com/wwi/R2021a/webots.min.js" defer></script>
+  <script src="{{ "js/simulation.js" | relURL }}" defer></script>
 </section>
