@@ -11,7 +11,6 @@ sections:
     title: Startup
     content: >-
 
-      ####Startup
       To get it onto the train the robot can be wheeled up a ramp. Once in the carriage it will centre itself using the stickers. It moves forward through the carriage, using the distance sensors on the side to detect tables. Upon reaching a table the robot moves into position to begin wiping as well as opening its bin compartment. Before each wipe it assesses whether there are any valuables in the way, if there are then it avoids that section of the table. If there is only rubbish in the way then the robot will wipe the table, using a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into it’s integrated bin compartment. Once a table has been cleaned the robot reverts back to the state where it’s looking for tables and finding and cleaning them as it goes. Once it reaches the end of the carriage it will turn around and clean the tables on the other side of the carriage. Once all the tables have been cleaned and the robot has reached the end of the carriage it uses its camera to detect the button to operate the door, it then presses and cleans it, exiting the carriage by the door.
 
       ####Setting up parameters
@@ -28,8 +27,12 @@ sections:
 
       The second iteration of the arm was a two section arm that allowed for movement in the middle. Despite being able to wipe tables this arm had problems, principally that it was too large and didn’t tuck down to a small enough size to allow the robot to move through the door of the train.
 
+
+
       <ims src="/images/2secsweep.png" width="50%"/>
       ![](/images/2secsweep.png)
+
+
 
       After a number of iterations and creation of several designs, the final arm was created. The arm comprises of 3 sections and a cleaning head that can be manipulated using rotational motors. This new arm allows the same sweeping motion as the initial design but is a much more flexible design which allowed the arm to tuck in and take up a much smaller area when not in use.
 
@@ -42,9 +45,9 @@ sections:
     title: Cleaning head
     content: >-
 
-    The cleaning head is located at the end of the arm. It includes a sponge, a main flat section with a pressure sensor on the bottom and an appendage which is used to clean and press buttons.
+      The cleaning head is located at the end of the arm. It includes a sponge, a main flat section with a pressure sensor on the bottom and an appendage which is used to clean and press buttons.
 
-    The sponge is used to clean the tables by applying a cleaning solution as the arm wipes. The pressure sensor is used for feedback so the controller can check that the robot is applying enough pressure on the table to clean effectively and can adjust the position of the arm accordingly. The flat shape of the head allows rubbish to be pushed towards the bin. The ‘wings’ on either side of the head are used to prevent rubbish being pushed out of the way, instead guiding it into the middle of the head so that it ends up in the bin.
+      The sponge is used to clean the tables by applying a cleaning solution as the arm wipes. The pressure sensor is used for feedback so the controller can check that the robot is applying enough pressure on the table to clean effectively and can adjust the position of the arm accordingly. The flat shape of the head allows rubbish to be pushed towards the bin. The ‘wings’ on either side of the head are used to prevent rubbish being pushed out of the way, instead guiding it into the middle of the head so that it ends up in the bin.
 
       ![](/images/headlabel.png)
 
@@ -99,7 +102,10 @@ sections:
     title: Valuable Detection
     content: >-
 
-      \[get Apurv to write this as he’s the expert]
+      To make sure that Railly Clean does not clear tables where passengers might have left their valuables behind we have created a valuable detection algorithm. To do this we have trained a model to distingush between cleanable and valuable items and surfaces. We achieved this by using transfer learning and retraining the SOTA EfficientNet model for image classfication. We used Tensorflow to train out model and create a tflite version which is optimized to work on devices with lower computational power like a Raspberry Pi. This means our model can work and give inferences entirely locally without relying on an hosted API making it secure and privacy friendly. By the help of a large dataset of pictures we collected we were successfully able to repurpose the general image classification EfficientNet model to a highly accurate valuable vs cleanable classifer. The accuracy of our classfications is around 99%! Now whenever we detect a table, we first take a picture, which our model classifies as valuable or cleanable. In the case we get a valuable classification we don't clean the table otherwise we continue as normal.
+
+      
+      A demo of this model is available [here](/playground) to explore.
 
   - type: content_card
     title: Navigation
@@ -107,6 +113,8 @@ sections:
 
 
       Railly clean uses a combination of object recognition and distance sensors to keep itself centred in the carriage. Two distance sensors on the left and right sides of the robot provide feedback about the position relative to the sides of the train. The robot uses an image recognition algorithm on the input from the camera to detect the stickers at either end of the carriage. It can then adjust its rotation relative to these two stickers.
+
+
 
       ![](/images/centerlabelled.png)
 

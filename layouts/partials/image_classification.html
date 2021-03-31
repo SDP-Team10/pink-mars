@@ -1,0 +1,17 @@
+{{ $section := .section }}
+<section class="section">
+    <div class="container container--md">
+        <div class="card cell card__bottom">
+            {{ if $section.title }}
+                <h2 class="card__title align-center">{{ $section.title }}</h2>
+            {{ end }}
+            <input id="file-input" type="file" hidden/>
+            <button id="classify-image" style="width: fit-content;align-self: center;">
+                Classify Picture
+            </button>
+            <div id="preview-image" class="align-center"></div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="{{ "js/classify.js" | relURL }}"></script>
+</section>

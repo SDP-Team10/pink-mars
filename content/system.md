@@ -17,42 +17,42 @@ sections:
       - type: feature
         title: Automate Cleaning
         content: Reduce costs and save time by augmenting your current cleaning team with a Railly Clean robot .
-        align: right
+        align: center
         image: images/plus.png
         image_alt: Feature 1 placeholder image
         image_position: right
       - type: feature
         title: Self Navigating
         content:  Able to move around the carriage interior without any assistance.
-        align: right
+        align: center
         image: images/nav.png
         image_alt: Feature 1 placeholder image
         image_position: right
       - type: feature
         title: Obstacle Avoidance
         content: An array of sensors prevent any collisions.
-        align: right
+        align: center
         image: images/warning.png
         image_alt: Feature 1 placeholder image
         image_position: right
       - type: feature
         title: 98%(!) Table Coverage
         content: Reliable and consistent table cleaning.
-        align: right
+        align: center
         image: images/tick.png
         image_alt: Feature 1 placeholder image
         image_position: right
       - type: feature
         title: Rubbish Collection
         content: An integrated bin inside the robot collects rubbish as the robot moves along the carriage.
-        align: right
+        align: center
         image: images/bin.png
         image_alt: Feature 1 placeholder image
         image_position: right
       - type: feature
         title: Button Cleaning
         content: Sanitises a key touch point for all passengers. 
-        align: right
+        align: center
         image: images/sanitise.png
         image_alt: Feature 1 placeholder image
         image_position: right
