@@ -105,33 +105,32 @@ sections:
     content: >-
       <table> <thead>
         <tr>
-          <th>Distance from Wall (m)</th>\
+          <th>Distance from Wall (m)</th>
           <th>Success Rate</th>
         </tr>
       </thead> <tbody>
         <tr>
-          <td>1.0</td>\
+          <td>1.0</td>
           <td>0</td>
         </tr>
         <tr>
-          <td>1.1</td>\
+          <td>1.1</td>
           <td>4/6</td>
         </tr>
         <tr>
-          <td>1.2</td>\
+          <td>1.2</td>
           <td>6/6</td>
         </tr>
         <tr>
-          <td>1.3</td>\
+          <td>1.3</td>
           <td>5/6</td>
         </tr>
         <tr>
-          <td>1.4</td>\
+          <td>1.4</td>
           <td>0</td>
         </tr>
-      </tbody> </table>\
+      </tbody> </table>
 
-      \
 
       We note the robot’s ability to recognise buttons located 1.25m above ground, and make the necessary adjustments to move forward to push from different distances. This information is useful for knowing when the robot should stop to check for a button, rather than a quantitative analysis about the robot’s ability to detect button and push.
 
@@ -145,49 +144,49 @@ sections:
     content: >-
       <table> <thead>
         <tr>
-          <th>Displacement (m)</th>\
-          <th>Rotation (**°**)</th>\
+          <th>Displacement (m)</th>
+          <th>Rotation (\*\*°\*\*)</th>
           <th>Time (s)</th>
         </tr>
       </thead> <tbody>
         <tr>
-          <td>-0.6</td>\
-          <td>60</td>\
+          <td>-0.6</td>
+          <td>60</td>
           <td>40.9</td>
         </tr>
         <tr>
-          <td>-0.6</td>\
-          <td>30</td>\
+          <td>-0.6</td>
+          <td>30</td>
           <td>8.2</td>
         </tr>
         <tr>
-          <td>-0.3</td>\
-          <td>60</td>\
+          <td>-0.3</td>
+          <td>60</td>
           <td>6.5</td>
         </tr>
         <tr>
-          <td>0.3</td>\
-          <td>30</td>\
+          <td>0.3</td>
+          <td>30</td>
           <td>4.4</td>
         </tr>
         <tr>
-          <td>0.3</td>\
-          <td>-30</td>\
+          <td>0.3</td>
+          <td>-30</td>
           <td>4.7</td>
         </tr>
         <tr>
-          <td>0.3</td>\
-          <td>-60</td>\
+          <td>0.3</td>
+          <td>-60</td>
           <td>34.8</td>
-        </tr>\
+        </tr>
         <tr>
-          <td>0.6</td>\
-          <td>-30</td>\
+          <td>0.6</td>
+          <td>-30</td>
           <td>7.4</td>
-        </tr>\
+        </tr>
         <tr>
-          <td>0.6</td>\
-          <td>-60</td>\
+          <td>0.6</td>
+          <td>-60</td>
           <td>7.9</td>
         </tr>
       </tbody> </table>
@@ -202,28 +201,28 @@ sections:
     content: >-
       <table> <thead>
         <tr>
-          <th>Training Accuracy (%)</th>\
+          <th>Training Accuracy (%)</th>
           <th>Validation Accuracy (%)</th>
         </tr>
       </thead> <tbody>
         <tr>
-          <td>81.43</td>\
+          <td>81.43</td>
           <td>98.83</td>
         </tr>
         <tr>
-          <td>98.76</td>\
+          <td>98.76</td>
           <td>99.61</td>
         </tr>
         <tr>
-          <td>99.21</td>\
+          <td>99.21</td>
           <td>99.61</td>
         </tr>
         <tr>
-          <td>99.11</td>\
+          <td>99.11</td>
           <td>99.61</td>
         </tr>
         <tr>
-          <td>99.47</td>\
+          <td>99.47</td>
           <td>99.61</td>
         </tr>
       </tbody> </table>
@@ -238,36 +237,36 @@ sections:
     content: >-
       <table> <thead>
         <tr>
-          <th>Table Length from Wall</th>\
+          <th>Table Length from Wall</th>
           <th>Sweep Coverage (%)</th>
         </tr>
       </thead> <tbody>
         <tr>
-          <td>0.5</td>\
+          <td>0.5</td>
           <td>0</td>
         </tr>
         <tr>
-          <td>0.6</td>\
+          <td>0.6</td>
           <td>71</td>
         </tr>
         <tr>
-          <td>0.7</td>\
+          <td>0.7</td>
           <td>96</td>
         </tr>
         <tr>
-          <td>0.8</td>\
+          <td>0.8</td>
           <td>96</td>
-        </tr>\
+        </tr>
         <tr>
-          <td>1.0</td>\
+          <td>1.0</td>
           <td>95</td>
         </tr>
         <tr>
-          <td>1.1</td>\
+          <td>1.1</td>
           <td>95</td>
         </tr>
         <tr>
-          <td>1.4</td>\
+          <td>1.4</td>
           <td>87</td>
         </tr>
       </tbody> </table>
