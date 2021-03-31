@@ -217,6 +217,50 @@ layout: page
         <tr>
           <td>
             <span>
+            6000mAh (14.4V)Li-on battery
+            </span>
+          </td>
+          <td>
+            <span>£43.72</span>
+          </td>
+          <td>
+            <span>2</span>
+          </td>
+          <td>
+            <span>
+            electropapa.com
+            designed for roboticcleaners
+            </span>
+          </td>
+          <td>
+            <span>£87.44</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span>
+            Makita DC18RC18V LXT Li-on Fast
+            Battery Charger
+            </span>
+          </td>
+          <td>
+            <span>£34.95</span>
+          </td>
+          <td>
+            <span>1</span>
+          </td>
+          <td>
+            <span>
+            powertoolworld.co.uk
+            </span>
+          </td>
+          <td>
+            <span>£34.95</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span>
             Misc.
             </span>
           </td>
