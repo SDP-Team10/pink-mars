@@ -149,7 +149,7 @@ sections:
     title: Check out our handy user guide
     content: >-
 
-      <embed src="/pdf/SDP-Group10-User-Guide.pdf" width= "500" height= "375", type="application/pdf">
+      <iframe src="/pdf/SDP-Group10-User-Guide.pdf" width="500" height="375"></iframe>
 seo:
   title: How It Works
   description: ""
