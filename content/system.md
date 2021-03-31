@@ -8,7 +8,7 @@ sections:
     title: Concept
     content: >-
       Railly Clean clears and disinfects train carriage tables while out of transit to improve sanitation and overall passenger satisfaction on trains.
-
+      
 
       During the Covid-19 pandemic, thorough cleaning of key touchpoints on trains has been increased, but we believe high standards of cleaning should be maintained beyond the pandemic. According to Scotrail’s Passenger Satisfaction Remedial Plan of 2019, even pre-pandemic, interior train cleanliness was deemed to be the second most important contributor to overall customer satisfaction. Even so, a National Rail Passenger Survey showed a dramatic decrease in interior cleanliness perceived by commuters from the 2017 to 2018 period. The key suggestion by the committee in order to improve this declining satisfaction, was to improve fleet cleanliness standards within core peak hours of operation. This is where we come in.
 
@@ -20,6 +20,15 @@ sections:
        
        
        Use cases? Once a train has finished its journeys for the day it needs to be cleaned.
+  - type: simulation_section
+    title: Simulation of our system
+    content: >-
+        - This model includes an accurate
+        and fast simulation of the Meccanum wheels.
+        
+        - The robot can be equiped
+        with various sensors (including the Microsoft Kinect) and configured with
+        zero, one or two arms.
   - type: hero_section_md
     title: Features
     subtitle: A complete set of features to augment your current cleaning solution.
@@ -97,42 +106,3 @@ seo:
       relativeUrl: true
 layout: advanced
 ---
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>KUKA youBot</title>
-    <link type="text/css" href="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.css" rel="stylesheet"/>
-    <link type="text/css" href="https://www.cyberbotics.com/wwi/R2021a/wwi.css" rel="stylesheet"/>
-    <style>
-      html, body {
-        padding:0;
-        height: 100%;
-      }
-      #view3d {
-        height: calc(100% - 250px);
-        width: 100%;
-      }
-    </style>
-    <script src="https://www.cyberbotics.com/jquery/1.11.3/jquery.min.js" ></script>
-    <script src="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="https://www.cyberbotics.com/jquery-dialogextend/2.0.4/jquery.dialogextend.min.js"></script>
-    <script src="https://www.cyberbotics.com/ace/1.2.0/ace.js"></script>
-    <script src="https://www.cyberbotics.com/wwi/R2021a/webots.min.js"></script>
-    <script>
-      function init() {
-          var view = new webots.View(document.getElementById("view3d"));
-          view.open("../static/sim/youbot.x3d");
-          view.setAnimation("../static/sim/youbot.json", "play", true);
-      }
-      window.addEventListener("load", init, false);
-      if (location.protocol == "file:" && (!!window.chrome && !!window.chrome.webstore))
-        alert("Webots HTML5 Models and Animations cannot be loaded locally on Google Chrome, as Chrome does not support cross-origin requests using the file:// protocol.");
-    </script>
-  </head>
-  <body>
-    <h1>KUKA youBot</h1>
-    <div id="view3d"></div>
-    <p>Simulation of the KUKA youBot robot.<br/>This model includes an accurate and fast simulation of the Meccanum wheels.<br/>The robot can be equiped with various sensors (including the Microsoft Kinect) and configured with zero, one or two arms.<br/></p>
-  </body>
-</html>

@@ -1,0 +1,31 @@
+{{ $section := .section }}
+<section class="section">
+  <div class="container container--md">
+    {{ if $section.title }}
+    <h2 class="section__title align-center">{{ $section.title }}</h2>
+    {{ end }}
+    <div id="view3d"></div>
+    {{ if $section.content }}
+      <div class="section__copy">
+        {{ partial "markdownify-block" $section.content }}
+      </div>
+    {{ end }}
+  </div>
+  <link
+    type="text/css"
+    href="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.css"
+    rel="stylesheet"
+  />
+  <link
+    type="text/css"
+    href="https://www.cyberbotics.com/wwi/R2021a/wwi.css"
+    rel="stylesheet"
+  />
+  </style>
+  <script src="https://www.cyberbotics.com/jquery/1.11.3/jquery.min.js" defer></script>
+  <script src="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.js" defer></script>
+  <script src="https://www.cyberbotics.com/jquery-dialogextend/2.0.4/jquery.dialogextend.min.js" defer></script>
+  <script src="https://www.cyberbotics.com/ace/1.2.0/ace.js" defer></script>
+  <script src="https://www.cyberbotics.com/wwi/R2021a/webots.min.js" defer></script>
+  <script src="{{ "js/simulation.js" | relURL }}" defer></script>
+</section>
