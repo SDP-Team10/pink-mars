@@ -22,6 +22,63 @@ seo:
       value: This is the budget page
 layout: page
 ---
+<div class="responsive-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Cost</th>
+        <th>Budget</th>
+        <th>Consumption</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span>Human Resources</span>
+        </td>
+        <td>
+          <span>397 Hours</span>
+        </td>
+        <td>
+          <span>400 Hours</span>
+        </td>
+        <td>
+          <span>99.2%</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>Technician Time</span>
+        </td>
+        <td>
+          <span>x Hours</span>
+        </td>
+        <td>
+          <span>10 Hours</span>
+        </td>
+        <td>
+          <span>x%</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>Materials Cost</span>
+        </td>
+        <td>
+          <span>0£ (simulation based)</span>
+        </td>
+        <td>
+          <span>0£ (simulation based)</span>
+        </td>
+        <td>
+          <span>0%</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
   <div class="responsive-table">
     <table>
       <thead>
@@ -294,7 +351,7 @@ layout: page
             </span>
           </td>
           <td>
-            <span>£492.57</span>
+            <span>£614.95</span>
           </td>
         </tr>
       </tbody>
