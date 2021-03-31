@@ -58,39 +58,39 @@ sections:
     content: >-
       <table> <thead>
         <tr>
-          <th>Total</th>\
-          <th>Side</th>\
+          <th>Total</th>
+          <th>Side</th>
           <th>Average Succeses</th>
         </tr>
       </thead> <tbody>
         <tr>
-          <td>1</td>\
-          <td>Left</td>\
+          <td>1</td>
+          <td>Left</td>
+          <td>1</td
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Right</td>
           <td>1</td>
         </tr>
         <tr>
-          <td>1</td>\
-          <td>Right</td>\
-          <td>1</td>
-        </tr>
-        <tr>
-          <td>2</td>\
-          <td>Left</td>\
+          <td>2</td>
+          <td>Left</td>
           <td>2</td>
         </tr>
         <tr>
-          <td>2</td>\
-          <td>Right</td>\
+          <td>2</td>
+          <td>Right</td>
           <td>2</td>
         </tr>
         <tr>
-          <td>3</td>\
-          <td>Left</td>\
+          <td>3</td>
+          <td>Left</td>
           <td>3</td>
         </tr>
         <tr>
-          <td>3</td>\
-          <td>Right</td>\
+          <td>3</td>
+          <td>Right</td>
           <td>2</td>
         </tr>
       </tbody> </table>
