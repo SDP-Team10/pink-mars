@@ -149,7 +149,7 @@ sections:
     title: Check out our handy user guide
     content: >-
 
-      <iframe src="/pdf/SDP-Group10-User-Guide.pdf" width="100%" height="900"></iframe>
+      <iframe src="/pdf/SDP-Group10-User-Guide.pdf" width="100%" height="800"></iframe>
 seo:
   title: How It Works
   description: ""
