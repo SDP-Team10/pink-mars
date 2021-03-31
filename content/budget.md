@@ -40,13 +40,13 @@ layout: page
           <span>Human Resources</span>
         </td>
         <td>
-          <span>397 Hours</span>
+          <span>399.5 Hours</span>
         </td>
         <td>
           <span>400 Hours</span>
         </td>
         <td>
-          <span>99.2%</span>
+          <span>99.9%</span>
         </td>
       </tr>
       <tr>

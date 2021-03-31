@@ -46,6 +46,16 @@ sections:
         </table>
       </div>
 
+      Once you have installed and opened the app, you will see a page to enter in different parameters.
+      The guide provides you an overview on how to set up the parameters.
+
+      Select the model number of the robot UUID picked up by the phone’s Bluetooth connection.
+
+      Please fill in Table Height, Aisle Width and Pole Width to optimise the robot’s performance.
+
+      Tap Confirm Configurations to finish the process. Clicking this button will transfer the environment setup data to the robot.
+
+
 
 
 

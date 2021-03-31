@@ -51,7 +51,7 @@ sections:
         image_position: right
       - type: feature
         title: Button Cleaning
-        content: Sanitises a key touch point for all passengers. 
+        content: Sanitises a key touch point for all passengers.
         align: center
         image: images/sanitise.png
         image_alt: Feature 1 placeholder image
@@ -85,3 +85,43 @@ seo:
       relativeUrl: true
 layout: advanced
 ---
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>KUKA youBot</title>
+    <link type="text/css" href="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.css" rel="stylesheet"/>
+    <link type="text/css" href="https://www.cyberbotics.com/wwi/R2021a/wwi.css" rel="stylesheet"/>
+    <style>
+      html, body {
+        padding:0;
+        height: 100%;
+      }
+      #view3d {
+        height: calc(100% - 250px);
+        width: 100%;
+      }
+    </style>
+    <script src="https://www.cyberbotics.com/jquery/1.11.3/jquery.min.js" ></script>
+    <script src="https://www.cyberbotics.com/jquery-ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://www.cyberbotics.com/jquery-dialogextend/2.0.4/jquery.dialogextend.min.js"></script>
+    <script src="https://www.cyberbotics.com/ace/1.2.0/ace.js"></script>
+    <script src="https://www.cyberbotics.com/wwi/R2021a/webots.min.js"></script>
+    <script>
+      function init() {
+          var view = new webots.View(document.getElementById("view3d"));
+          view.open("../static/sim/youbot.x3d");
+          view.setAnimation("../static/sim/youbot.json", "play", true);
+      }
+      window.addEventListener("load", init, false);
+      if (location.protocol == "file:" && (!!window.chrome && !!window.chrome.webstore))
+        alert("Webots HTML5 Models and Animations cannot be loaded locally on Google Chrome, as Chrome does not support cross-origin requests using the file:// protocol.");
+    </script>
+  </head>
+  <body>
+    <h1>KUKA youBot</h1>
+    <div id="view3d"></div>
+    <p>Simulation of the KUKA youBot robot.<br/>This model includes an accurate and fast simulation of the Meccanum wheels.<br/>The robot can be equiped with various sensors (including the Microsoft Kinect) and configured with zero, one or two arms.<br/></p>
+  </body>
+</html>
