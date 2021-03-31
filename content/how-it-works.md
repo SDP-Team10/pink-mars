@@ -144,9 +144,10 @@ sections:
     title: Button Detection
     content: >-
 
-      One of the features of the system is cleaning and operating buttons. Railly clean uses image recognition to identify a buttons. Once it has finished cleaning a carriage it will A
+      One of the features of the system is cleaning and operating buttons. This is an important feature as the robot navigates the train and moves in and out of carriages.  Railly clean uses image recognition to identify buttons. Once a button has been identified the image from the camera is passed to the controller for vision processing in Python. The position in 2d from the camera is converted to a 3d position relative to the arm. The kinematics controller then calculates the movements required to move the button pressing appendage to the button, and press it.
 
-      [picture of button pressing!] [pic of detection?]
+
+    ![](/images/buttonlabelled.png)
 seo:
   title: How It Works
   description: ""
