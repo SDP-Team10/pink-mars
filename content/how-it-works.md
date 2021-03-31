@@ -31,9 +31,9 @@ sections:
 
       Select the model number of the robot UUID picked up by the phone’s Bluetooth connection.
 
-      Please fill in <b>Table Height</b>, <b>Aisle Width</b> and <b>Pole Width</b> to optimise the robot’s performance.
+      Please fill in <tt>Table Height</tt>, <tt>Aisle Width</tt> and <tt>Pole Width</tt> to optimise the robot’s performance.
 
-      Tap <b>Confirm Configurations</b> to finish the process. Clicking this button will transfer the environment setup data to the robot.
+      Tap <tt>Confirm Configurations</tt> to finish the process. Clicking this button will transfer the environment setup data to the robot.
 
 
       ![](/images/app.png)
