@@ -9,7 +9,7 @@ sections:
       background_color: white
       background_image_size: cover
       background_image_repeat: no-repeat
-    title: Railly Clean
+    title: ""
   - type: content_section
     content: <p align="center" width="100%"> <img src="/images/home_poster.png"
       alt="Home Poster"> </p>
