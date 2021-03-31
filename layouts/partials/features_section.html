@@ -3,7 +3,7 @@
 
   {{ if $section.title }}
   <div class="container container--md align-center">
-    <h2 class="section__title">{{ $section.title }}</h2>
+    <h2 class="section__titleFeat">{{ $section.title }}</h2>
   </div>
   {{ end }}
 
@@ -21,9 +21,9 @@
       <div class="section__body cell">
         {{ if $feature.title }}
           {{ if $section.title }}
-          <h3 class="section__title">{{ $feature.title }}</h3>
+          <h3 class="section__titleFeat">{{ $feature.title }}</h3>
           {{ else }}
-          <h2 class="section__title">{{ $feature.title }}</h2>
+          <h2 class="section__titleFeat">{{ $feature.title }}</h2>
           {{ end }}
         {{ end }}
         {{ if $feature.content }}
