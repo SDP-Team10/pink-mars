@@ -1,34 +1,38 @@
 ---
-title: Privacy and Terms
+title: Evaluation
+sections:
+  - type: hero_section
+    title: System Evaluation
+    align: center
+  # - type: content_section
+  #   content: >
+  #     ![](/images/evolution.png)
+  - type: content_card
+    title: Whole system specifications
+    content: >-
+
+      | Specification                               | Value      |
+      |---------------------------------------------|------------|
+      | Energy expended to complete a carriage      | 60Wh       |
+      | Time taken to clean 1mx0.8m table           | 2 minutes  |
+      | Time taken to detect and push button        | 25 seconds |
+      | Maximum slope of ramp travellable           | 10°        |
+      | Maximum time needed to centre               | 1 minute   |
+      | Time taken to complete a carriage in Webots | 20 minutes |
+
+      Based on the energy consumption reported by Webots at the end of a whole-carriage system run, a 6000mAh battery (14.4V) would deliver enough power to last a single use even with overhead, and could be easily switched out if short on time or fully recharged in under an hour (especially as the battery will likely not have been depleted).
+
+      The coverage remains at over 95% as in the previous demo and as the head has a disinfectant covered sponge attached, which disinfects the tables.
+
+      The current cleaning mechanism includes a robust feedback loop that allows the arm to recover itself from any position, given the complexity of surfaces and items it will encounter. Our carriage was set up with 6 table seats in total, matching the number expected in a real train carriage. We find the current performance acceptable for use during a deep-clean of the train at night, as the robots can help alleviate the need for many cleaners to deep-clean the trains. For use during the day, more testing and optimisation will be needed to bring the time down to around 10 minutes. The bottleneck was in calculating joint values using kinematics, which can be improved with more accurate calculations of optimal PID values to scale subsequent wipe actions after the first one in the carriage. We also note that time-sensitive performance recorded by Webots may not reflect real world application.
+
+      We expect the robot will work on 3 buttons throughout a carriage, one to open the door to get into the carriage, and one at either end of the carriage. With the ability to manipulate the buttons, the robot can travel on and off the carriage by itself without requiring a cleaner’s assistance; thus the 75 seconds expected to open and close doors can be considered a significant improvement from the time and risks involved in having the cleaner guide the robot on and off carriage, as well as enabling the cleaner to streamline the process of setting up accessible ramps and powering on the robots. The cleaner can then focus on clearing rubbish and picking up valuables left behind. We also note that if the robot is able to push the button and pass through the door to get into the carriage, it will likely be already close to centred in the aisle and won’t require the maximum 1 minute for centering before cleaning.
+
+      Given the robot’s tested ability to move up and down slopes up to 10° steep, exceeding [the standardised maximum gradient of 1:12](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/918425/design-standards-accessible-stations.pdf), the ability to autonomously navigate into the carriage can be developed and tested in the future using the existing implementation for button detection and aisle movement.
+
 seo:
   type: stackbit_page_meta
   title: Privacy and Terms
-  description: This is the privacy and terms page
-  extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Privacy and Terms
-      keyName: property
-    - name: 'og:description'
-      value: This is the privacy and terms page
-      keyName: property
-    - name: 'twitter:card'
-      value: summary
-    - name: 'twitter:title'
-      value: Privacy and Terms
-    - name: 'twitter:description'
-      value: This is the privacy and terms page
-layout: page
+  description: This is the evaluation page
+layout: advanced
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec sagittis aliquam. Turpis massa sed elementum tempus egestas sed sed. Orci a scelerisque purus semper eget duis at tellus at. Lacus luctus accumsan tortor posuere ac. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Ultrices sagittis orci a scelerisque purus semper eget duis. Pharetra pharetra massa massa ultricies. Felis eget nunc lobortis mattis aliquam. In cursus turpis massa tincidunt. Tempor nec feugiat nisl pretium. Odio aenean sed adipiscing diam. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. Justo laoreet sit amet cursus sit amet dictum. Turpis tincidunt id aliquet risus feugiat in ante metus.
-
-Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Fringilla urna porttitor rhoncus dolor purus. Consectetur purus ut faucibus pulvinar. Nullam non nisi est sit. Tellus in metus vulputate eu scelerisque felis. Nunc congue nisi vitae suscipit tellus mauris. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Fermentum iaculis eu non diam phasellus vestibulum. Faucibus turpis in eu mi bibendum neque egestas congue. Eget arcu dictum varius duis at consectetur lorem. Pellentesque pulvinar pellentesque habitant morbi tristique. Sagittis nisl rhoncus mattis rhoncus urna neque. In eu mi bibendum neque egestas congue. Et malesuada fames ac turpis egestas.
-
-Consequat id porta nibh venenatis cras sed felis eget velit. Nunc vel risus commodo viverra maecenas accumsan. Congue quisque egestas diam in. Ultricies mi quis hendrerit dolor magna eget est. Duis at tellus at urna. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Et egestas quis ipsum suspendisse ultrices gravida dictum. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Mauris nunc congue nisi vitae. Venenatis tellus in metus vulputate eu scelerisque felis. Ultrices in iaculis nunc sed augue lacus. Eu lobortis elementum nibh tellus molestie nunc. Faucibus nisl tincidunt eget nullam non nisi est.
-
-Sagittis vitae et leo duis. Et magnis dis parturient montes nascetur ridiculus mus. Dui vivamus arcu felis bibendum ut. Et netus et malesuada fames ac. Mollis aliquam ut porttitor leo a diam sollicitudin. Elit at imperdiet dui accumsan sit. Justo eget magna fermentum iaculis. Turpis tincidunt id aliquet risus feugiat. Dictumst vestibulum rhoncus est pellentesque elit. Dolor magna eget est lorem ipsum dolor. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Metus vulputate eu scelerisque felis imperdiet proin. Congue nisi vitae suscipit tellus mauris. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Scelerisque purus semper eget duis at tellus at urna condimentum. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam.
-
-Neque sodales ut etiam sit amet. Magna ac placerat vestibulum lectus mauris ultrices. Turpis massa tincidunt dui ut ornare lectus sit amet est. Sed vulputate mi sit amet mauris commodo quis. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Eget nullam non nisi est sit amet facilisis. Sem viverra aliquet eget sit amet tellus cras. Massa eget egestas purus viverra accumsan in nisl nisi scelerisque. Gravida arcu ac tortor dignissim convallis aenean. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Egestas dui id ornare arcu odio ut sem. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Nibh sit amet commodo nulla. Feugiat scelerisque varius morbi enim nunc. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Eu mi bibendum neque egestas. At lectus urna duis convallis. Gravida quis blandit turpis cursus.
