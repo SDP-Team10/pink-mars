@@ -36,7 +36,7 @@ sections:
       Tap <tt>Confirm Configurations</tt> to finish the process. Clicking this button will transfer the environment setup data to the robot.
 
 
-      ![](/images/app.png)
+      <center><img src="/images/app.png" /></center>
 
 
   - type: content_card
