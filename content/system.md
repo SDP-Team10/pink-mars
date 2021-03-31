@@ -5,7 +5,7 @@ sections:
     title: Why Railly Clean
     align: center
   - type: content_card
-    title: Concept
+    title: Concept & Value
     content: >-
       Railly Clean clears and disinfects train carriage tables while out of transit to improve sanitation and overall passenger satisfaction on trains.
       
