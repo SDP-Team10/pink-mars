@@ -2,7 +2,7 @@
  * Tables
  */
 table {
-  border-bottom: 1px solid $color-border;
+  border-bottom: thin solid $color-border;
   border-collapse: collapse;
   border-spacing: 0;
   line-height: 1.5;
@@ -22,7 +22,7 @@ caption {
 
 th,
 td {
-  border-top: 1px solid $color-border;
+  border-top: thin solid $color-border;
   padding: 0.5em 5px;
 }
 
@@ -37,7 +37,35 @@ th {
 
 .responsive-table {
   display: block;
-  margin: 0 0 1.5rem;
   overflow-x: auto;
   width: 100%;
+  border-collapse: collapse;
+  background-color: #aaf6e9;
+  margin: 25px 0;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.responsive-table thead tr {
+  background-color: #28aaff ;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 2px solid #536171;
+}
+
+
+
+.responsive-table th,
+.responsive-table td {
+    padding: 15px 15px;
+}
+.responsive-table tbody tr {
+  border-bottom: thin solid #536171;
+  text-align: center;
+}
+
+
+
+.responsive-table tbody tr:last-of-type {
+  border-bottom: 2px solid #536171;
 }

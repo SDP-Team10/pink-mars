@@ -7,38 +7,39 @@ sections:
   - type: content_card
     title: Whole system specifications
     content: >-
-      <table> <thead>
-        <tr>
-          <th>Specification</th>
-          <th>Value</th>
-        </tr>
-      </thead> <tbody>
-        <tr>
-          <td>Energy expended to complete a carriage</td>
-          <td>60Wh</td>
-        </tr>
-        <tr>
-          <td>Time taken to clean 1mx0.8m table</td>
-          <td>2 minutes</td>
-        </tr>
-        <tr>
-          <td>Time taken to detect and push button</td>
-          <td>25 seconds</td>
-        </tr>
-        <tr>
-          <td>Maximum slope of ramp travellable</td>
-          <td>10°</td>
-        </tr>
-        <tr>
-          <td>Maximum time needed to centre</td>
-          <td>1 minute</td>
-        </tr>
-        <tr>
-          <td>Time taken to complete a carriage in Webots</td>
-          <td>20 minutes</td>
-        </tr>
-      </tbody> </table>
-
+      <div class="responsive-table">
+        <table> <thead>
+          <tr>
+            <th>Specification</th>
+            <th>Value</th>
+          </tr>
+        </thead> <tbody>
+          <tr>
+            <td>Energy expended to complete a carriage</td>
+            <td>60Wh</td>
+          </tr>
+          <tr>
+            <td>Time taken to clean 1mx0.8m table</td>
+            <td>2 minutes</td>
+          </tr>
+          <tr>
+            <td>Time taken to detect and push button</td>
+            <td>25 seconds</td>
+          </tr>
+          <tr>
+            <td>Maximum slope of ramp travellable</td>
+            <td>10°</td>
+          </tr>
+          <tr>
+            <td>Maximum time needed to centre</td>
+            <td>1 minute</td>
+          </tr>
+          <tr>
+            <td>Time taken to complete a carriage in Webots</td>
+            <td>20 minutes</td>
+          </tr>
+        </tbody> </table>
+      </div>
 
       Based on the energy consumption reported by Webots at the end of a whole-carriage system run, a 6000mAh battery (14.4V) would deliver enough power to last a single use even with overhead, and could be easily switched out if short on time or fully recharged in under an hour (especially as the battery will likely not have been depleted).
 
@@ -56,6 +57,7 @@ sections:
   - type: content_card
     title: Clearing Rubbish from Table
     content: >-
+      <div class="responsive-table">
       <table> <thead>
         <tr>
           <th>Total</th>
@@ -94,6 +96,7 @@ sections:
           <td>2</td>
         </tr>
       </tbody> </table>
+      </div>
 
 
       We tested the robot’s ability to pull the rubbish into the bin body with the assumption that for each pair of passengers at either side of the table seat, there would be about 1-3 items left behind. We note that the robot is expected to behave with a bin bag inserted, which not only keeps the bin compartment clean but also prevents items from falling out of the bin. We also note that Webots has known bugs with cylindrical objects, related to which we have observed that items would fall straight through the door or the base even though that is not expected to happen in the real world. Therefore, we consider an item successfully cleared into bin if it falls down onto the opened door, since it will slide down the bin bag into the bin.
@@ -103,6 +106,7 @@ sections:
   - type: content_card
     title: Button Manipulation
     content: >-
+      <div class="responsive-table">
       <table> <thead>
         <tr>
           <th>Distance from Wall (m)</th>
@@ -130,7 +134,7 @@ sections:
           <td>0</td>
         </tr>
       </tbody> </table>
-
+      </div>
 
       We note the robot’s ability to recognise buttons located 1.25m above ground, and make the necessary adjustments to move forward to push from different distances. This information is useful for knowing when the robot should stop to check for a button, rather than a quantitative analysis about the robot’s ability to detect button and push.
 
@@ -142,6 +146,7 @@ sections:
   - type: content_card
     title: Rotation Fixing and Aisle Centering
     content: >-
+      <div class="responsive-table">
       <table> <thead>
         <tr>
           <th>Displacement (m)</th>
@@ -190,7 +195,7 @@ sections:
           <td>7.9</td>
         </tr>
       </tbody> </table>
-
+      </div>
 
       When the sticker was in the field of view of the front cam- era, the robot would take less than 10s to centre itself before cleaning. If the robot started out unable to see the sticker (facing the wrong direction), it would need to complete up to a rotation to find the sticker, then fix its rotation and position, needing up to a minute before it could start cleaning the carriage. 
 
@@ -199,6 +204,7 @@ sections:
   - type: content_card
     title: Valuable Classifier
     content: >-
+      <div class="responsive-table">
       <table> <thead>
         <tr>
           <th>Training Accuracy (%)</th>
@@ -226,7 +232,7 @@ sections:
           <td>99.61</td>
         </tr>
       </tbody> </table>
-
+      </div>
 
       **Testing accuracy (%) : 99.62**
 
@@ -235,6 +241,7 @@ sections:
   - type: content_card
     title: Whole Table Coverage for Different Lengths
     content: >-
+      <div class="responsive-table">
       <table> <thead>
         <tr>
           <th>Table Length from Wall</th>
@@ -270,6 +277,7 @@ sections:
           <td>87</td>
         </tr>
       </tbody> </table>
+      </div>
 
 
       Given the arm dimensions mentioned above, we conclude that the arm satisfactorily consistently sweeps 90% or more for table lengths between 0.7m and 1.1m (inclusive), within the expected range for train tables. A single sweep from wall to the edge of a 1.1m long table takes 28.5s, and the robot spends on average 2 minutes at the table, from opening bin at one end to closing bin at another. Assuming LNER’s current route from London to Edinburgh which uses Azuma trains with 4 table seats per carriage, the robot can theoretically clear rubbish and clean tables in the 10 minutes the route stops at Newcastle. We have noticed that spherical trash like fruits could be difficult to accurately sweep due to their lack of contact surface with the table. It is worth noting however that half-eaten fruits would lose the spherical shape and behave more like cans of drink.
