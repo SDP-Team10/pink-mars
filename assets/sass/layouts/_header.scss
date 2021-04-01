@@ -22,7 +22,7 @@
 
 .navbar__logo {
   img {
-    max-height: 7rem;
+    max-height: 3rem;
   }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navbar__item {
-  font-size: 1.25em;
+  font-size: 0.8em;
 }
 
 @include media-breakpoint-up(md) {

@@ -33,14 +33,13 @@ sections:
     title: System's flow charts
     content: >-
 
-    <center><img src="/images/carriage-flow.png" /></center>
-    <center><img src="/images/arm-flow.png" /></center>
+      <center><img src="/images/carriage-flow.png" /></center>
+      <center><img src="/images/arm-flow.png" /></center>
+      ![](/images/2x-clean.mp4)
 
   - type: simulation_section
     title: Simulation of our system
     content: >-
-
-    ![](/images/2x-clean.mp4)
 
   - type: hero_section_md
     title: Features
