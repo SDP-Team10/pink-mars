@@ -12,6 +12,7 @@ sections:
     content: >-
 
       <h3>Physical setup</h3>
+
       The robot needs to travel up and down a ramp to get on and off the train. Once in the carriage, it will centre itself using the included stickers placed on doors.
 
 
@@ -21,6 +22,7 @@ sections:
       As it goes down the aisle, the left distance sensor is used to detect the presence of a table. Upon reaching a table, the robot moves into position to begin wiping as well as opening its bin compartment. It first assesses whether there are any valuables in the way before wiping, and avoids cleaning the section if so. If it deems the section clear of valuables, the robot will wipe with a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into the integrated bin. Once a table has been cleaned, the robot reverts back to detecting tables, finding and cleaning them as it goes, as well as turning around at the end of carriage around to clean the other side of the carriage. Once all the tables have been cleaned and the robot has reached the door it came in through, the front camera is used to detect the button to operate the door, cleaning it before pressing it to exit the carriage.
 
       <h3>App Setup</h3>
+
       Railly Clean will work directly out of the box.
       A mobile app is also provided to allow our customers to enter in certain setup parameters to customise and optimise Railly Clean to different trains, right on your smartphones.
 
@@ -35,7 +37,7 @@ sections:
 
       Tap <tt>Confirm Configurations</tt> to finish the process. Clicking this button will transfer the environment setup data to the robot.
 
-
+      
       <center><img src="/images/app.png" /></center>
 
 
@@ -116,7 +118,8 @@ sections:
       To make sure that Railly Clean does not clear tables where passengers might have left their valuables behind, we have created a valuable detection algorithm. To do this we have trained a classification model to distinguish between cleanable and valuable items and surfaces. We achieved this by using transfer learning and retraining the SOTA EfficientNet model for image classification. We used Tensorflow to train out model and create a tflite version which is optimized to work on devices with lower computational power like a Raspberry Pi. This means our model can work and give inferences entirely locally without relying on an hosted API making it secure and privacy friendly. By the help of a large dataset of pictures we collected, we were successfully able to repurpose the general image classification EfficientNet model to a highly accurate valuable vs cleanable classifier. The accuracy of our classifications is around 99%! Now whenever we detect a table, we first take a picture, which our model classifies as valuable or cleanable. The robot will skip to the next section of the table upon classifying an object as valuable.
 
 
-      <center>A demo of this model is available [here](/playground) to explore.</center>
+      <center>A demo of this model is available <a href="/playground">here</a> to explore.</center>
+
 
   - type: content_card
     title: Navigation
@@ -144,8 +147,10 @@ sections:
 
       One of the features of the system is cleaning and operating buttons. This is an important feature as the robot navigates the train and moves in and out of carriages autonomously. Railly Clean uses image recognition to identify buttons. Once a button has been identified, the image from the camera is passed to the controller for vision processing in Python. The position in 2D from the camera is converted to a 3D position relative to the arm. The kinematics controller then calculates the movements required to move the button pressing appendage to the button, before prompting the robot to press.
 
+
       ![](/images/buttonlabelled.png)
     
+
   - type: content_card
     title: Check out our handy user guide
     content: >-
