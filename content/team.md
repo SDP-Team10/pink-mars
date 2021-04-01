@@ -89,7 +89,7 @@ sections:
           <center>
           <div style="height: 150px;">
           <p>Movement</p>
-          <p>Handled the motion of the robot base such as centering, rotating, moving set distances forward, backward, left and right</p>
+          <p>Handled the motion of the robot base such as centering, rotating, moving set distances forward, backward, sideways</p>
           </div>
           </center>
         </div>

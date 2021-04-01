@@ -47,7 +47,7 @@ sections:
       <br>
       
 
-      <figure class="video_container">
+      <figure class="video_container" width="100%">
         <video controls="true" allowfullscreen="true">
          <source src="/images/2x-clean.mp4" type="video/mp4">
         </video>
