@@ -2,11 +2,24 @@
 title: How It Works
 sections:
   - type: hero_section
-    title: How does our System Work?
     align: center
-  - type: content_section
-    content: >
-      ![](/images/evolution.png)
+    actions:
+      - label: Learn More
+        url: /system
+        style: primary
+      - label: Contact Us
+        url: contact
+        style: secondary
+    has_background: true
+    background:
+      background_color: gray
+      background_image: images/evolution.jpg
+      background_image_opacity: 45
+      background_image_size: cover
+      background_image_repeat: repeat
+    title: How it Works
+    subtitle: An explanation of our product
+
   - type: content_card
     title: Startup
     content: >-
@@ -15,7 +28,7 @@ sections:
 
       The robot needs to travel up and down a ramp to get on and off the train. Once in the carriage, it will centre itself using the included stickers placed on doors.
 
-      
+
       <center><img src="/images/yellow_sticker.png" /></center>
 
 
@@ -149,7 +162,7 @@ sections:
 
 
       ![](/images/buttonlabelled.png)
-    
+
 
   - type: content_card
     title: Check out our handy user guide
