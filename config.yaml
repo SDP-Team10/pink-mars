@@ -68,7 +68,7 @@ params:
         style: link
         new_window: true
     content: "&copy; Railly Clean. All rights reserved. 2021."
-  domain: https://pink-mars-be984.netlify.app
+  domain: https://raillyclean.me
 taxonomies:
   stub: stub
 disableKinds:
