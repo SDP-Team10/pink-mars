@@ -1,0 +1,14 @@
+{{ $section := .section }}
+<section class="section">
+  <div class="container container--lg">
+    <div class=" card cell">
+      {{ if $section.title }}
+      <h2 class="card__title align-center">{{ $section.title }}</h2>
+      {{ end }} {{ if $section.content }}
+      <div class="card__body">
+        {{ partial "markdownify-block" $section.content }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

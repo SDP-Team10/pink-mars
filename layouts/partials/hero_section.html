@@ -1,4 +1,5 @@
 {{ $section := .section }}
+{{ $background_video := $section.background_video }}
 {{ $background := $section.background }}
 {{ $background_color := $background.background_color | default "white" }}
 {{ $background_opacity_pct := $background.background_image_opacity | default 100 }}
@@ -6,12 +7,18 @@
 {{ $background_size := $background.background_image_size | default "cover" }}
 {{ $background_repeat := $background.background_image_repeat | default "no-repeat" }}
 
-<section class="section hero{{ if and $section.has_background $background.background_image }} bg-image{{ end }}{{ if and $section.has_background (eq $background_color "blue") }} inverse bg-blue{{ end }}{{ if and $section.has_background (eq $background_color "gray") }} bg-gray{{ end }}{{ if or $section.has_background $section.image }} section--padding{{ end }}">
+<section class="section hero{{ if and $section.has_background $background.background_image }} bg-image{{ end }}{{ if and $section.has_background (eq $background_color "blue") }} inverse bg-blue{{ end }}{{ if and $section.has_background (eq $background_color "gray") }} bg-gray{{ end }}{{ if or $section.has_background $section.image }} section--padding{{ end }}" style="{{if $section.has_background_video}} padding-top: 0em; {{end}}">
 
   {{ if and $section.has_background $background.background_image }}
   <div class="bg-image__image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}"></div>
   {{ end }}
-
+  {{ if $section.has_background_video}}
+      <div class="bg-video">
+        <video poster="images/video-poster.png" autoplay muted loop playsinline>
+          <source src="{{ $section.background_video_src }}" type="video/mp4">
+        </video>
+      </div>
+  {{ end }}
   <div class="container container--lg">
     <div class="flex flex--middle flex--center flex--col-2{{ if eq $section.align "center" }} align-center{{ end }}{{ if eq $section.align "right" }} align-right{{ end }}">
 
@@ -22,7 +29,9 @@
       {{ end }}
 
       <div class="cell section__body">
-        {{ if $section.title }}
+        {{ if and $section.title $section.has_background_video}}
+        <h1 class="section__title" style="margin-top: 25%; color: #fff">{{ $section.title }}</h1>
+        {{ else if $section.title }}
         <h1 class="section__title">{{ $section.title }}</h1>
         {{ end }}
         {{ if $section.subtitle }}

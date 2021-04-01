@@ -4,31 +4,21 @@ sections:
   - type: hero_section
     align: center
     actions:
-      - label: Learn More
+      - label: Meet Railly Clean
         url: /system
         style: primary
       - label: Contact Us
         url: contact
         style: secondary
-    has_background: true
-    background:
-      background_color: gray
-      background_image: images/train-interior.jpg
-      background_image_opacity: 45
-      background_image_size: cover
-      background_image_repeat: repeat
-    title: Railly Clean 
-    subtitle: An automated train cleaning robot
-  - type: hero_section
-    align: center
-    has_background: true
-    background:
-      background_color: gray
-      background_image: images/up-graph.jpg
-      background_image_opacity: 75
-      background_image_size: cover
-      background_image_repeat: repeat
-    title: Want to increase customer satisfaction, improve cleanliness and automate manual work?
+    has_background_video: true
+    background_video_src: https://drive.google.com/uc?export=download&id=1jGmbBaAmvIsOR1LcP8xXF1bvEeZX09M3
+    title: We build robots so you can provide your passengers the best travelling experience
+  - type: content_card_lg
+    title: Humans + robots working together make the best team
+    content: >- 
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <h5 style="text-align: center; margin-top: 0em;"> We designed and built Railly Clean to automate routine cleaning activities so that the staff can focus on ensuring. </h4> 
+
 seo:
   title: Home
   extra:
