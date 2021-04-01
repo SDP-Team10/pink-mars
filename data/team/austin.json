@@ -1,9 +1,9 @@
 {
-  "id": "austin",
-  "first_name": "Austin",
-  "last_name": "Cheang",
-  "photo": "images/austin.png",
-  "photo_alt": "Austin Cheang",
-  "bio": "Simulation modelling and testing",
-  "type": "person"
+    "id": "austin",
+    "first_name": "Austin",
+    "last_name": "Cheang",
+    "photo": "images/austin.png",
+    "photo_alt": "Austin Cheang",
+    "bio": "Simulation Modelling and Technical Report Writer \n",
+    "type": "person"
 }
