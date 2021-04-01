@@ -54,7 +54,7 @@ sections:
       One of the key components of the robot is the arm: this part of the robot underwent the most changes as the project progressed. Initially the design planned to use a pre-made arm (the Pincher X 100 Robotic Arm). However, its small size was rather ineffective for the job. The second iteration of the arm was a two-section arm that allowed for movement in the middle joint. While it worked well for wiping tables, the arm principally was too large and didn’t tuck down to a small enough size for moving through the carriage's door.
 
 
-      ![](/images/2secsweep.png)
+      <center><img src="/images/2secsweep.png" width="80%"/><p>The arm during movement</p></center>
 
 
       This new arm allows the same sweeping motion as the initial design but is much more flexible, allowing the arm to tuck into a smaller volume when not in use. The final design initially proved difficult to control; the additional joint required creating a new dedicated kinematics function to calculate the position and force the motors need to carry out the sweeping motion. Despite this initial setback, the arm now has a smooth and consistent sweeping motion which cleans the table and pushes rubbish into its bin.
