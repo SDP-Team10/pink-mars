@@ -34,17 +34,17 @@ sections:
     content: >-
 
       <center>
-        <img src="/images/carriage-flow.png" height="800"/>
+        <img src="/images/carriage-flow.png" height="600"/>
         <p>Flowchart of robot's states throughout a system run</p>
-        <br>
       </center>
+      <br>
 
 
       <center>
-        <img src="/images/arm-flow.png" height="800"/>
+        <img src="/images/arm-flow.png" height="600"/>
         <p>Flowchart of robot's states while cleaning table</p>
-        <br>
       </center>
+      <br>
       
 
       <figure class="video_container">
