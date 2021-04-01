@@ -34,14 +34,14 @@ sections:
     content: >-
 
       <center>
-        <img src="/images/carriage-flow.png" height="400"/>
+        <img src="/images/carriage-flow.png" style="max-height:700px; width:auto"/>
         <p>Flowchart of robot's states throughout a system run</p>
       </center>
       <br>
 
 
       <center>
-        <img src="/images/arm-flow.png" height="400"/>
+        <img src="/images/arm-flow.png" style="max-height:700px; width:auto"/>
         <p>Flowchart of robot's states while cleaning table</p>
       </center>
       <br>
