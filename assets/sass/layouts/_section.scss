@@ -16,8 +16,12 @@
   .container + .container {
     margin-top: 2.25rem;
   }
+}
+
+.landing {
   height: 75vh;
   overflow: auto;
+  
 }
 
 .bg-blue,

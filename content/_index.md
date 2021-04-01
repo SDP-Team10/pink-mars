@@ -10,6 +10,7 @@ sections:
       - label: Contact Us
         url: contact
         style: secondary
+    landing: true
     has_background_video: true
     background_video_src: https://drive.google.com/uc?export=download&id=1jGmbBaAmvIsOR1LcP8xXF1bvEeZX09M3
     title: We build robots so you can provide your passengers the best travelling experience
