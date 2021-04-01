@@ -29,9 +29,18 @@ sections:
 
         L.F.Trains is a train operator who wants to deep-clean trains at night more frequently to keep customers happy. To achieve this, they want to deploy a number of robots to augment their cleaning staff, allowing faster, more thorough cleaning while minimising viral exposure to the staff. Like in the case above, a cleaner will wait with the robots at the platform. Once accessible ramps are set up, the robots will navigate into the carriages after being powered on, disinfect door buttons and tables, then navigate off the train by themselves. A cleaner can then pick up all the valuables and open cans the robots is not expected to handle. The accessible ramps can then be collected.
 
+  - type: content_card
+    title: System's flow charts
+    content: >-
+
+    <center><img src="/images/carriage-flow.png" /></center>
+    <center><img src="/images/arm-flow.png" /></center>
+
   - type: simulation_section
     title: Simulation of our system
     content: >-
+
+    ![](/images/2x-clean.mp4)
 
   - type: hero_section_md
     title: Features
