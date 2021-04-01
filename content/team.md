@@ -80,7 +80,7 @@ sections:
         <div style="width: 20%;display: inline-block;height: 300px;">
           <center>
             <div style="height: 150px;">
-            <p>Vision+Detection</p>
+            <p>Vision</p>
             <p>Handled the detection of stickers, tables, rubbish, and obstacles, allowing the robot to understand its environment</p>
             </div>
           </center>
@@ -89,7 +89,7 @@ sections:
           <center>
           <div style="height: 150px;">
           <p>Movement</p>
-          <p>Handled the motion of the robot base such as rotating and moving set distances</p>
+          <p>Handled the motion of the robot base such as centering, rotating, moving set distances forward, backward, sideways</p>
           </div>
           </center>
         </div>
@@ -97,15 +97,15 @@ sections:
           <center>
           <div style="height: 150px;">
           <p>Testing</p>
-          <p>Testing individual functionalities of the robot as well as full system tests</p>
+          <p>Testing individual functionalities of the robot as well as full system tests, as well as recording simulations</p>
           </div>
           </center>
         </div>
         <div style="width: 19%;display:inline-block;height: 300px;">
           <center>
           <div style="height: 150px;">
-          <p>Research and Documentation</p>
-          <p>Researched marketability and use cases for the robot. Wrote the documentation for the robot and created Demo videos</p>
+          <p>Research</p>
+          <p>Researched marketability and use cases for the robot; wrote reports and created demo videos</p>
           </div>
           </center>
         </div>
