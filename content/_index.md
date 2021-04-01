@@ -18,7 +18,7 @@ sections:
     title: Humans + robots working together make the best team
     content: >- 
       <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-      <h5 style="text-align: center; margin-top: 0em;"> We designed and built Railly Clean to automate routine cleaning activities so that the staff can focus on ensuring. </h4> 
+      <h6 style="text-align: center; margin-top: 0em;"> We designed and built Railly Clean to automate routine cleaning activities so that the staff can focus on ensuring high-quality service for the passengers. </h4> 
 
 seo:
   title: Home
