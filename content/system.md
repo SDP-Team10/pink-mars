@@ -22,18 +22,19 @@ sections:
     content: >-
         ### Use Case 1
 
+        A is a train operator with a long-haul train from London to Edinburgh and expects to stop at Newcastle where they expect a lot of passengers getting off train and boarding, and thus stop at Newcastle for 10 minutes. A wants to keep the train clean at the changeover by not only clearing the rubbish but also wiping down the tables and door buttons. A cleaner can wait at the platform where the train arrives at Newcastle together with all the robots in place where carriage doors are expected to lined up. Another member of a staff with accessible ramps handy to install for the robots. Once the train arrives and after passengers have left, a member of a staff will quickly place down the accessible ramps at different carriages, The robots then can be powered on to navigate into their respective carriages to clean, with just one cleaner boarding the train to pick up any valuable the robots have avoided cleaning, or any heavy rubbish with liquid the robots can't pick up. While the cleaner is doing so, accessible ramps can be quickly collected after the robots get off the train.
+
+
         ### Use Case 2
 
-        ### Use Case 3
+        B is a train operator who wishes to deep-clean trains more frequently to keep customers happy. B wishes to deploy a number of robots to deep-clean trains to accomplish the task the quicker, with less viral exposure to cleaners. A cleaner will pick up all the valuables and heavy rubbish the robots are not expected to handle, all while a member of staff installs accessible ramps for the robots. The robots can then naviagte into the carriages after being powered on, clean door buttons and tables, then navigate off the train by themselves.
+
   - type: simulation_section
     title: Simulation of our system
     content: >-
-        - This model includes an accurate
-        and fast simulation of the Meccanum wheels.
+        - This model includes an accurate and fast simulation of the Mecanum wheels.
         
-        - The robot can be equiped
-        with various sensors (including the Microsoft Kinect) and configured with
-        zero, one or two arms.
+        - The robot can be equiped with various sensors (including the Microsoft Kinect) and configured with zero, one or two arms.
   - type: hero_section_md
     title: Features
     subtitle: A complete set of features to augment your current cleaning solution.
