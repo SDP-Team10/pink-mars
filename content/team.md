@@ -56,8 +56,6 @@ sections:
           <p>Handled creation of simulated parts for both the robot itself and the train environment</p>
         </div>
       </div>
-      
-    title: Organistion Structure
 seo:
   type: stackbit_page_meta
   title: Team
