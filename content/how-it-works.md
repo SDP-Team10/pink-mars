@@ -15,8 +15,8 @@ sections:
 
       The robot needs to travel up and down a ramp to get on and off the train. Once in the carriage, it will centre itself using the included stickers placed on doors.
 
-
-      ![](/images/yellow_sticker.png)
+      
+      <center><img src="/images/yellow_sticker.png" /></center>
 
 
       As it goes down the aisle, the left distance sensor is used to detect the presence of a table. Upon reaching a table, the robot moves into position to begin wiping as well as opening its bin compartment. It first assesses whether there are any valuables in the way before wiping, and avoids cleaning the section if so. If it deems the section clear of valuables, the robot will wipe with a sponge attached to the end of the arm to clean the table, while pulling rubbish towards it and into the integrated bin. Once a table has been cleaned, the robot reverts back to detecting tables, finding and cleaning them as it goes, as well as turning around at the end of carriage around to clean the other side of the carriage. Once all the tables have been cleaned and the robot has reached the door it came in through, the front camera is used to detect the button to operate the door, cleaning it before pressing it to exit the carriage.
@@ -37,7 +37,7 @@ sections:
 
       Tap <tt>Confirm Configurations</tt> to finish the process. Clicking this button will transfer the environment setup data to the robot.
 
-      
+
       <center><img src="/images/app.png" /></center>
 
 
