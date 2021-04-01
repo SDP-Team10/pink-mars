@@ -34,14 +34,16 @@ sections:
     content: >-
 
       <center>
-        <img src="/images/carriage-flow.png" />
+        <img src="/images/carriage-flow.png" height="800"/>
         <p>Flowchart of robot's states throughout a system run</p>
+        <br>
       </center>
 
 
       <center>
-        <img src="/images/arm-flow.png" />
+        <img src="/images/arm-flow.png" height="800"/>
         <p>Flowchart of robot's states while cleaning table</p>
+        <br>
       </center>
       
 
@@ -50,9 +52,10 @@ sections:
          <source src="/images/2x-clean.mp4" type="video/mp4">
         </video>
       </figure>
+      <p>Our simulated robot in action</p>
 
   - type: simulation_section
-    title: Simulation of our system
+    title: Check out Railly Clean in Webots
     content: >-
 
   - type: hero_section_md
