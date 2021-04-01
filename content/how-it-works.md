@@ -2,11 +2,17 @@
 title: How It Works
 sections:
   - type: hero_section
-    title: How does our System Work?
     align: center
-  - type: content_section
-    content: >
-      ![](/images/evolution.png)
+    has_background: true
+    background:
+      background_color: gray
+      background_image: images/evolution.png
+      background_image_opacity: 45
+      background_image_size: cover
+      background_image_repeat: repeat
+    title: How it Works
+    subtitle: An explanation of our product
+
   - type: content_card
     title: Startup
     content: >-
@@ -15,7 +21,7 @@ sections:
 
       The robot needs to travel up and down a ramp to get on and off the train. Once in the carriage, it will centre itself using the included stickers placed on doors.
 
-      
+
       <center><img src="/images/yellow_sticker.png" /></center>
 
 
@@ -48,13 +54,12 @@ sections:
       One of the key components of the robot is the arm: this part of the robot underwent the most changes as the project progressed. Initially the design planned to use a pre-made arm (the Pincher X 100 Robotic Arm). However, its small size was rather ineffective for the job. The second iteration of the arm was a two-section arm that allowed for movement in the middle joint. While it worked well for wiping tables, the arm principally was too large and didn’t tuck down to a small enough size for moving through the carriage's door.
 
 
-      ![](/images/2secsweep.png)
+      <center><img src="/images/2secsweep.png" width="80%"/><p>The first generation arm during movement</p></center>
 
 
       This new arm allows the same sweeping motion as the initial design but is much more flexible, allowing the arm to tuck into a smaller volume when not in use. The final design initially proved difficult to control; the additional joint required creating a new dedicated kinematics function to calculate the position and force the motors need to carry out the sweeping motion. Despite this initial setback, the arm now has a smooth and consistent sweeping motion which cleans the table and pushes rubbish into its bin.
 
-
-      ![](/images/armlabelled.png)
+      <center><img src="/images/armlabelled.png" width="80%"/><p>Breakdown of the final arm design</p></center>
 
 
   - type: content_card
@@ -64,7 +69,7 @@ sections:
       The cleaning head is located at the end of the arm. It includes a sponge, a main flat section with a pressure sensor on the bottom and an appendage which is used to clean and press buttons. The sponge is used to clean the tables by applying a cleaning solution as the arm wipes. The pressure sensor is used for feedback, so the controller can check that the robot is applying enough pressure on the table to clean effectively and can adjust the position of the arm accordingly. The flat shape of the head allows rubbish to be pushed towards the bin. The ‘wings’ on either side of the head are used to prevent rubbish from being pushed out of the way, guiding it instead into the middle of the head so it ends up in the bin.
 
 
-      ![](/images/headlabel.png)
+      <center><img src="/images/headlabel.png" width="80%"/><p>Breakdown of the cleaning head</p></center>
 
 
   - type: content_card
@@ -75,7 +80,7 @@ sections:
       Initially our robot was created using the TIAGo Base included with Webots. This off-the-shelf component allowed us to begin working on the movement and detection functions of the robot immediately. However the base included several components that we didn’t need and was unstable, lacking the ability to turn nicely in a confined area. Taking inspiration from the KUKA youBot (also included with Webots), we created a new base that uses omnidirectional mecanum wheels. These wheels' unique design allows the robot to move in all four directions without rotating. This design change not only makes the cleaning process faster, but also makes the robot more efficient with less time spent on turning and correcting its position.
 
 
-      ![](/images/baselabelled.png)
+      <center><img src="/images/baselabelled.png" width="80%"/><p>Comparison of base versions</p></center>
 
 
   - type: content_card
@@ -85,8 +90,7 @@ sections:
 
       The main body of the robot is hollow, allowing 0.08<sup>3</sup> of rubbish swept off tables to be stored in a bin bag put in the compartment by the cleaner. On the bin side of the robot, the body is split in half: the top section is hinged and controlled by a motor, allowing access to the bin interior, while the bottom section houses the side distance sensor used for detecting tables. When the system is in place for wiping a table, the bin opens outward for rubbish to fall in. During normal movement the bin is closed. Inside the bin, a ceiling sensor is used to determine the rubbish collection level.
 
-
-      ![](/images/binlabelled.png)
+      <center><img src="/images/binlabelled.png" width="80%"/><p>Breakdown of bin component</p></center>
 
 
   - type: content_card
@@ -97,7 +101,7 @@ sections:
       Railly Clean has a dedicated set of distance sensors on its sides. As the system moves through the carriage, the sensors are constantly scanning perpendicular to the direction of movement. The readings are fed back into the controller. The controller detects a table when a set of successive readings match the pattern for a train table, indicating that the robot just moved from a seat to empty space to the table pole. The robot then has to move back to the edge of table and starts the cleaning process, in which the robot computes and carries out as many sweeps as needed at the table.
 
 
-      ![](/images/tabledetectlabelled.png)
+      <center><img src="/images/tabledetectlabelled.png" width="80%"/><p>Robot during table detection</p></center>
 
 
   - type: content_card
@@ -107,8 +111,7 @@ sections:
 
       The robot controller calculates the distance that the arm needs to extend out based on the readings of the left distance sensor. The kinematics function then calculates the joint positions necessary to complete a cleaning sweep of that section of the table. In the case of unexpected failure during a sweep, the robot will simply tuck the arm back into its deactivated position, and then attempt the next sweep. This added fail-safe mechanism improves the system robustness by preventing the robot from getting stuck during its run.
 
-
-      ![](/images/wipelabelled.png)
+      <center><img src="/images/armlabelled.png" width="80%"/><p>Arm in action wiping</p></center>
 
 
   - type: content_card
@@ -128,9 +131,7 @@ sections:
 
       Railly Clean uses a combination of object recognition and side distance sensors to keep itself centred in the aisle. Two distance sensors on the left and right side of the robot, pointing at the walls, provide feedback about the position relative to the sides of the train. The robot uses an image recognition algorithm on the input from the camera to detect the sticker at either end of the carriage, adjusting its rotation relative to the location of the sticker.
 
-
-      ![](/images/centerlabelled.png)
-
+      <center><img src="/images/centerlabelled.png" width="80%"/><p>Robot centring during movement</p></center>
 
 
   - type: content_card
@@ -147,9 +148,7 @@ sections:
 
       One of the features of the system is cleaning and operating buttons. This is an important feature as the robot navigates the train and moves in and out of carriages autonomously. Railly Clean uses image recognition to identify buttons. Once a button has been identified, the image from the camera is passed to the controller for vision processing in Python. The position in 2D from the camera is converted to a 3D position relative to the arm. The kinematics controller then calculates the movements required to move the button pressing appendage to the button, before prompting the robot to press.
 
-
-      ![](/images/buttonlabelled.png)
-    
+      <center><img src="/images/buttonlabelled.png" width="80%"/><p>Robot pressing a button</p></center>
 
   - type: content_card
     title: Check out our handy user guide

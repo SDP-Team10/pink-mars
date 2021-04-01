@@ -31,7 +31,41 @@ sections:
 
 
       The project code was storing in a shared repository on GitHub to allow the entire team access. Version control was implemeted through Git and GitHub, using GitHub’s project management features to keep track of how the project was progressing. Demo reports were created using Overleaf, enabling instant visual feedback of layout and the ability for the team to add comments and feedback.
-    title: Organistion Structure
+
+
+  - type: content_card
+    title: Subteams
+    content: >-
+
+      In the planning week we decided that in order to work efficiently we would split into Subteams with team allocations based on individual skills
+
+      <div>
+        <div style="width: 150px;display: inline-block;height: 300px;">
+          <center><img src="sub1.png"  width="30%"/></center>
+          <h3>Modelling</h3>
+          <p>Handled creation of simulated parts for both the robot itself and the train environment</p>
+        </div>
+        <div style="width: 150px;display: inline-block;height: 300px;">
+          <center><img src="sub2.png"  width="30%"/></center>
+          <h3>Vision+Detection</h3>
+          <p>Handled the detection of stickers, tables, rubbish, and obstacles, allowing the robot to understand its environment</p>
+        </div>
+        <div style="width: 150px;display: inline-block;height: 300px;">
+          <center><img src="sub3.png"  width="30%"/></center>
+          <h3>Movement</h3>
+          <p>Handled the motion of the robot base such as rotating and moving set distances, as well as the motion of the arm for sweeping tables and pressing buttons</p>
+        </div>
+        <div style="width: 150px;display: inline-block;height: 300px;">
+          <center><img src="sub4.png"  width="30%"/></center>
+          <h3>Testing</h3>
+          <p>Testing individual functionalities of the robot as well as full system tests</p>
+        </div>
+        <div style="width: 150px;display: inline-block;height: 300px;">
+          <center><img src="sub5.png"  width="30%"/></center>
+          <h3>Research and Documentation</h3>
+          <p>Researched marketability and use cases for the robot. Wrote the documentation for the robot such as User Guides and Progress Reports as well as creating Demo videos</p>
+        </div>
+      </div>
 seo:
   type: stackbit_page_meta
   title: Team
