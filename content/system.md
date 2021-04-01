@@ -26,8 +26,8 @@ sections:
 
 
         ### Use Case 2
-
-        L.F.Trains is a train operator who wants to deep-clean trains at night more frequently to keep customers happy. L.F.Trains wants deploy a number of robots to accomplish the task, while minimising viral exposure to cleaners. Like in the case above, a cleaner will wait with the robots at the platform. Once accessible ramps are set up, the robots will naviagte into the carriages after powered on, disinfect door buttons and tables, then navigate off the train by themselves. A cleaner can then pick up all the valuables and open cans the robots do not expect to handle. The accessible ramps can then be collected.
+        
+        L.F.Trains is a train operator who wants to deep-clean trains at night more frequently to keep customers happy. To achieve this, they want to deploy a number of robots to augment their cleaning staff, allowing faster, more thorough cleaning while minimising viral exposure to the staff. Like in the case above, a cleaner will wait with the robots at the platform. Once accessible ramps are set up, the robots will navigate into the carriages after being powered on, disinfect door buttons and tables, then navigate off the train by themselves. A cleaner can then pick up all the valuables and open cans the robots is not expected to handle. The accessible ramps can then be collected.
 
   - type: simulation_section
     title: Simulation of our system
