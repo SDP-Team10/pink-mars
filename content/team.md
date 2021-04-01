@@ -32,9 +32,10 @@ sections:
 
       The project code was storing in a shared repository on GitHub to allow the entire team access. Version control was implemeted through Git and GitHub, using GitHub’s project management features to keep track of how the project was progressing. Demo reports were created using Overleaf, enabling instant visual feedback of layout and the ability for the team to add comments and feedback.
 
-    - type: content_card
-      title: Subteams
-      content: >-
+
+  - type: content_card
+    title: Subteams
+    content: >-
 
       In the planning week we decided that in order to work efficiently we would split into Subteams with team allocations based on individual skills
 
@@ -55,15 +56,6 @@ sections:
           <p>Handled creation of simulated parts for both the robot itself and the train environment</p>
         </div>
       </div>
-
-
-
-
-
-
-
-
-    title: Organistion Structure
 seo:
   type: stackbit_page_meta
   title: Team
