@@ -3,10 +3,24 @@ title: How It Works
 sections:
   - type: hero_section
     align: center
+<<<<<<< HEAD
     has_background: true
     background:
       background_color: gray
       background_image: images/evolution.png
+=======
+    actions:
+      - label: Learn More
+        url: /system
+        style: primary
+      - label: Contact Us
+        url: contact
+        style: secondary
+    has_background: true
+    background:
+      background_color: gray
+      background_image: images/evolution.jpg
+>>>>>>> 5bef6c34e75d6f9ba2e92aa8fda62e495f09092e
       background_image_opacity: 45
       background_image_size: cover
       background_image_repeat: repeat
