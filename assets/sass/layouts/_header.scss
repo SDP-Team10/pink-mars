@@ -3,8 +3,8 @@
  */
 .site-header {
   border-bottom: 1px solid $color-border;
-  padding-bottom: 1.125rem;
-  padding-top: 1.125rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
   background-color: $color-nav-background;
 }
 
@@ -22,7 +22,7 @@
 
 .navbar__logo {
   img {
-    max-height: 5rem;
+    max-height: 8rem;
   }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navbar__item {
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 @include media-breakpoint-up(md) {
