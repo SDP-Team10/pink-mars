@@ -3,17 +3,22 @@ title: Home
 sections:
   - type: hero_section
     align: center
-    image_position: left
-    has_background: false
+    actions:
+      - label: Learn More
+        url: /system
+        style: primary
+      - label: Contact Us
+        url: contact
+        style: secondary
+    has_background: true
     background:
-      background_color: white
-      background_image_size: cover
-      background_image_repeat: no-repeat
-    title: ""
-  - type: content_section
-    content: <p align="center" width="100%"> <img src="/images/home_poster.png"
-      alt="Home Poster"> </p>
-    title: ""
+      background_color: gray
+      background_image: images/train_lner_table.jpg
+      background_image_opacity: 20
+      background_image_size: auto
+      background_image_repeat: repeat
+    title: Railly Clean 
+    subtitle: An automated train cleaning robot
 seo:
   title: Home
   extra:
