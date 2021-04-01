@@ -16,13 +16,13 @@
 .navbar__logo,
 .navbar__title {
   flex: 0 1 auto;
-  margin: 0 1.25rem 2rem 0;
+  margin: 0 1.25rem 4rem 0;
   text-decoration: none;
 }
 
 .navbar__logo {
   img {
-    max-height: 3rem;
+    max-height: 6rem;
   }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navbar__item {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 @include media-breakpoint-up(md) {
