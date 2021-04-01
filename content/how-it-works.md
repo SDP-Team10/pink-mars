@@ -111,7 +111,7 @@ sections:
 
       The robot controller calculates the distance that the arm needs to extend out based on the readings of the left distance sensor. The kinematics function then calculates the joint positions necessary to complete a cleaning sweep of that section of the table. In the case of unexpected failure during a sweep, the robot will simply tuck the arm back into its deactivated position, and then attempt the next sweep. This added fail-safe mechanism improves the system robustness by preventing the robot from getting stuck during its run.
 
-      <center><img src="/images/tabledetectlabelled.png" width="80%"/><p>Arm in action wiping</p></center>
+      <center><img src="/images/armlabelled.png" width="80%"/><p>Arm in action wiping</p></center>
 
 
   - type: content_card
