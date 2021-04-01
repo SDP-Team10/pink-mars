@@ -39,11 +39,38 @@ sections:
 
       In the planning week we decided that in order to work efficiently we would split into Subteams with team allocations based on individual skills
 
-      <div width="100%" height=300px>
+      <div width="100%" style="height: 160px;">
         <div style="width: 19%;display: inline-block;height: 300px;">
           <center>
             <span height="50px">
               <img src="/images/sub1.png"  width="30%"/></span>
+          </center>
+        </div>
+        <div style="width: 20%;display: inline-block;height: 300px;">
+          <center>
+            <span height="50px"><img src="/images/sub2.png"  width="30%"/></span>
+          </center>
+        </div>
+        <div style="width: 20%;display: inline-block;height: 300px;">
+          <center>
+          <span height="50px"><img src="/images/sub3.png"  width="30%"/></span>
+          </center>
+        </div>
+        <div style="width: 20%;display: inline-block;height: 300px;">
+          <center>
+          <span height="50px"><img src="/images/sub4.png"  width="30%"/></span>
+          </center>
+        </div>
+        <div style="width: 19%;display:inline-block;height: 300px;">
+          <center>
+          <span height="50px"><img src="/images/sub5.png"  width="30%"/></span>
+          </center>
+        </div>
+      </div>
+
+      <div width="100%">
+        <div style="width: 19%;display: inline-block;height: 300px;">
+          <center>
             <div style="height: 150px;">
             <p>Modelling</p>
             <p>Handled creation of simulated parts for both the robot itself and the train environment</p>
@@ -52,7 +79,6 @@ sections:
         </div>
         <div style="width: 20%;display: inline-block;height: 300px;">
           <center>
-            <span height="50px"><img src="/images/sub2.png"  width="30%"/></span>
             <div style="height: 150px;">
             <p>Vision+Detection</p>
             <p>Handled the detection of stickers, tables, rubbish, and obstacles, allowing the robot to understand its environment</p>
@@ -61,32 +87,30 @@ sections:
         </div>
         <div style="width: 20%;display: inline-block;height: 300px;">
           <center>
-          <span height="50px"><img src="/images/sub3.png"  width="30%"/></span>
           <div style="height: 150px;">
           <p>Movement</p>
-          <p>Handled the motion of the robot base such as rotating and moving set distances</p>
+          <p>Handled the motion of the robot base such as centering, rotating, moving set distances forward, backward, left and right</p>
           </div>
           </center>
         </div>
         <div style="width: 20%;display: inline-block;height: 300px;">
           <center>
-          <span height="50px"><img src="/images/sub4.png"  width="30%"/></span>
           <div style="height: 150px;">
           <p>Testing</p>
-          <p>Testing individual functionalities of the robot as well as full system tests</p>
+          <p>Testing individual functionalities of the robot as well as full system tests, as well as recording simulations</p>
           </div>
           </center>
         </div>
         <div style="width: 19%;display:inline-block;height: 300px;">
           <center>
-          <span height="50px"><img src="/images/sub5.png"  width="30%"/></span>
           <div style="height: 150px;">
           <p>Research and Documentation</p>
-          <p>Researched marketability and use cases for the robot. Wrote the documentation for the robot and created Demo videos</p>
+          <p>Researched marketability and use cases for the robot; wrote reports and created demo videos</p>
           </div>
           </center>
         </div>
       </div>
+
 seo:
   type: stackbit_page_meta
   title: Team
