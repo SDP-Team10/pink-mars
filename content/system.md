@@ -54,9 +54,9 @@ sections:
       </figure>
       <center><p>Our simulated robot in action</p></center>
 
-  - type: simulation_section
-    title: Check out Railly Clean in Webots
-    content: >-
+  # - type: simulation_section
+  #   title: Check out Railly Clean in Webots
+  #   content: >-
 
   - type: hero_section_md
     title: Features
