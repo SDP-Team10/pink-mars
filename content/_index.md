@@ -22,7 +22,7 @@ sections:
   - type: content_card_lg
     title: See our video introduction
     content: >-
-      <video controls="true" allowfullscreen="true" width="100%" height="auto" style="margin-left: auto; margin-right: auto; display: block;" ><source src="https://zesty-store.s3-us-west-1.amazonaws.com/group-10-IndustryDayVideo.mp4"></video>
+      <video controls="true" allowfullscreen="true" width="100%" height="auto" style="margin-left: auto; margin-right: auto; display: block;" ><source src="https://www.dropbox.com/s/9p6voh5tujemg2r/group-10-IndustryDayVideo.mp4?raw=1"></video>
       
   - type: content_card_lg
     title: Product Overview
